@@ -1,0 +1,4297 @@
+/* Deprecated per EURLEXNEW-4374 *//*Header*/
+/*.MyAccount li.OptSocialNet a:before {
+    content: "\f0c0";
+}
+.MyAccount li.OptBackOffice a:before {
+    content: "\f013";
+}*/
+/*Header (end)*/
+
+/*Homepage*/
+#ojBoxTop > a{
+	color: #0c7ea9;
+}
+#ojBoxBottom > .HomeOJMore{
+	margin-top: 10px;
+
+}
+.editorialContentEditIcon img{
+	z-index: 4;
+	position: absolute;
+	right: 10px;
+}
+.Promo .editorialContentEditIcon img{
+	max-height: 35px;
+	border-radius:0px;
+	min-width:0px;
+ }
+/*Homepage (end)*/
+
+/*Statistics Legal acts */
+table#legalActsStatisticsTable thead td{
+	height: 20px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+table#legalActsStatisticsTable thead th{
+	width: 70%;
+	height: 20px;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+	background-color:rgba(255,255,255,0.0);
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+table#legalActsStatisticsTable tbody th {
+	text-align:left;
+	font-weight:normal;
+	padding:6px 4px 4px 25px;
+	vertical-align:middle;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+table#legalActsStatisticsTable tbody tr td {
+	padding:2px 2px 2px 5px;
+	vertical-align:middle;
+	text-align:center;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+table#legalActsStatisticsTable tbody th[id*="labelText"]{
+	text-align:left;
+	font-weight:bold;
+	padding-left:6px;
+}
+table#legalActsStatisticsTable tbody th[id*="labelTextNotBold"]{
+	text-align:left;
+	padding-left:6px;
+}
+table#legalActsStatisticsTable tbody th[id*="italicText"]{
+	font-style:italic;
+}
+table#legalActsStatisticsTable tbody tr.totalRow td{
+	background-color:rgba(0,0,0,0.07);
+}
+table#legalActsStatisticsTable tbody th.totalRow{
+	background-color:rgba(0,0,0,0.07);
+	text-align:left;
+	padding-left:6px;
+}
+table#legalActsStatisticsTable tbody tr:hover th{
+	background-color:#FFF;
+}
+table#legalActsStatisticsTable tbody tr.totalRow:hover th{
+	background-color:#EEE;
+}
+table#legalActsStatisticsTable tbody tr:hover td{
+	background-color:#F2F3F5;
+}
+table#legalActsStatisticsTable tbody tr td:hover{
+	background-color:#80CCE5;
+}
+
+table#legalActsStatisticsTable tbody tr.totalRow:hover td{
+	background-color:#D6D6D6;
+}
+table#legalActsStatisticsTable tbody tr.totalRow td:hover{
+	background-color:#80CCE5;
+}
+p.cpCategory {
+    color: #AAA;
+    font-weight: bold;
+    font-size: 21px;
+}
+.linkText {
+	padding: 5px 0 5px 0;
+}
+/*Statistics Legal acts (end)*/
+
+/*Statistics EU - Law */
+#printTable1, #printTable2, #printTable3, #printTable4{
+		display: none;
+}
+table#textStatisticsTable  tbody  tr  th {border: 0;}
+table#sectorStatisticsTable tbody  tr  th {border: 0;}
+/*Statistics EU - Law (end)*/
+
+/*Fallback OJ widget*/
+.ojFallBackDescription{
+	margin-bottom: 20px;
+}
+.ojFallBackDescriptionCheckLex{
+	margin-bottom: 10px;
+}
+table#ojFallBackTable {
+	border-bottom: 1px solid;
+	border-bottom-color: gainsboro;
+}
+#ojFallBackTable ul li ul.hoverDropdownList{
+    display: none;
+    position: relative;
+    left: 0;
+	margin: 0px;
+}
+#ojFallBackTable ul li ul.hoverDropdownList {
+    white-space: nowrap;
+}
+#ojFallBackTable ul li:hover ul.hoverDropdownList{
+    display: block;
+}
+#ojFallBackTable ul li ul.hoverDropdownList li{
+    display: block;
+}
+/*Fallback OJ widget (end)*/
+
+/*Fallback Direct Access widget*/
+.DaFallBack{
+	margin-top: 20px;
+	background: #EEE;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+/*Fallback Direct Access widget (end)*/
+
+/*Auto Complete*/
+.typeahead {
+	z-index: 1051;
+}
+div.QuickSearch > ul.typeahead{
+	width: 100%
+}
+.autocompleteField + ul.typeahead{
+	width: 96%
+}
+.autocompleteField + .dropdown-menu > li > a {
+    white-space:normal;
+    word-wrap: break-word;
+}
+.dropdown-menu > .appearActive > a, .dropdown-menu > .appearActive > a:hover, .dropdown-menu > .appearActive > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #087faa;
+}
+/*Auto Complete (end)*/
+
+/*Browsing Tree*/
+ul.browseTree {
+	padding-left: 15px;
+}
+ul.browseTree li {
+	list-style: none;
+	margin: 4px 0;
+	padding-left: 4px;
+}
+ul.browseTree li.leaf>i:before { /* facet-tree.tag */
+/*	content: "\f111";*/
+	font-family: FontAwesome;
+	display: inline-block;
+	width: 13px;
+	color: #CCC;
+	font-size: 6px;
+}
+ul.browseTree li.leaf>i:hover:before,
+ul.browseTree li.leaf>i:focus:before	{
+	color:#087FAA;
+}
+ul.browseTree li a {
+	font-weight: normal;
+	color: #444 ;
+}
+ul#tree.browseTree li a.gotoResultLink {
+	color: #36C;
+}
+@media (max-width: 767px){
+	ul#tree.browseTree li a.gotoResultLink {
+		margin-left: 15px;
+	}
+}
+/*OJ special edition tree with id institutionTree*/
+ul#institutionTree.browseTree > li.leaf{
+	padding-left:15px;
+}
+ul#tree.browseTree, ul#institutionTree.browseTree {
+	padding-left:0px;
+}
+ul#institutionTree.browseTree ul[id^="tree"] {
+	padding-left:10px;
+}
+ul#institutionTree.browseTree li ul li a {
+	color: #36C;
+}
+/*Add some space between top-level nodes*/
+ ul#tree.browseTree > li {
+	margin-top: 12px;
+}
+ul#tree.browseTree li a {
+	font-weight: bold;
+	color: #097eaa;
+}
+ul#tree.browseTree li a.normalTreeLink {
+	color: #444;
+}
+ul#tree.browseTree li.leaf {
+	font-weight: bold;
+	padding-left:15px;
+}
+ul#tree.browseTree li a.gotoResultLink {
+	padding-left: 25px;
+  	position: relative;
+	font-weight: normal;
+	color: #097eaa;
+}
+ul#tree.browseTree li a i:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  left: 5px;
+  /*content: "\f002";*/
+}
+ul#tree.browseTree li a.gotoResultLink:hover:before {
+	color: #5599ff;
+}
+.normalTreeLink.ViewMoreInfo{
+	padding:0 0px 0 27px;
+ 	text-transform:none;
+ 	font-size: 14px;
+ }
+ ul.browseTree li.leaf i.fa-circle {
+	margin-right: 4px; /* list dots alignment  */
+}
+/*Browsing Tree (end)*/
+
+/*Filter Input*/
+/* Advanced & Expert search field button clear*/
+#treefilterSearch-clearAdvancedSearchIconButton, #expertFilter-clearAdvancedSearchIconButton, #advancedFilter-clearAdvancedSearchIconButton, #metadataFilterSimple-clearAdvancedSearchIconButton, #metadataFilterAdvanced-clearAdvancedSearchIconButton{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #B40404;
+    display:none;
+	z-index:10;
+}
+#treefilterSearch, #expertFilter, #advancedFilter, #metadataFilterSimple, #metadataFilterAdvanced {
+	padding-right:30px;
+}
+/*Filter Input (end)*/
+
+/* EURLEXNEW-4490 */
+.adjustHeight {
+   height: 33px !important;
+}
+.addBoxBorders {
+   box-shadow: 0 0 0 1px #cccccc !important;
+   max-width: unset;
+}
+.removeSolidBorders {
+   border: 0px;
+}
+.GroupCheckLabel.noBorder {
+   border: 0px !important;
+}
+/* EURLEXNEW-4520 */
+.removeRightPadding {
+   padding-right: 0;
+}
+/* ---------------------- */
+
+/*Highlight of EuroVoc tree nodes when searching in the filter field of the page*/
+.em{
+	color:#09C;
+	font-style:italic;
+	display: inline;
+}
+/*Highlight of EuroVoc tree nodes when searching in the filter field of the page (end)*/
+
+/*Focus Outline rules*/
+#main_menu_glossary li a[href]:focus, .SearchResultDoc li a {
+	outline-offset:-2px;
+	}
+/* Amplifies focus effect on metadata tabs */
+.nav-tabs li a:focus, .nav-tabs li.active a:focus{
+	outline:none;
+	box-shadow:inset 0px 0px 0px 3px #ffd617;
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    transition: all 0s ease;
+    background-color:#EEE;
+ }
+div.checkbox input.greyedOut:focus{
+	outline: none;
+}
+button#remove:focus{
+	outline: 3px solid #ffd617 ;
+	outline-offset: -3px;
+}
+div.tab-pane:focus {
+	outline: none;
+}
+@media (max-width : 767px){
+	.OJTable tr td a[href]:focus {
+		outline-offset:0;
+	}
+	#contentfiche ul.glossaryContent li a[href]:focus {
+		outline-offset:-1px;
+	}
+}
+/*Focus Outline rules (end)*/
+
+/* Glossary */
+.glossaryContent ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.glossaryContent li,  ul.glossaryContent > li:before, #contentfiche ul#main_menu_glossary > li:before {
+	background: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#contentfiche ul#main_menu_glossary {
+	margin-left: 0px;
+}
+#contentfiche span.superscript {
+	vertical-align: super;
+	font-size: smaller;
+}
+/* Glossary (end)*/
+
+/*Notice TXT/ALL */
+#PP1Contents > div > p.invisible{
+	display: none;
+}
+#PPClass_Contents > .panel-body > ul > li > div {
+	display: -webkit-box;
+}
+#PPClass_Contents > .panel-body > ul > li > div > div{
+	padding-left: 25px;
+}
+.PanelBodyB > span{
+	margin-bottom: 5px;
+}
+.formatLanguagesBtn{
+	height: 30px;
+}
+.PubFormatType{
+    white-space: nowrap;
+}
+.rectificatifDisplay{
+    background: #FFF;
+	padding: 0;
+	float: none;
+}
+.nonTransform{
+	text-transform: none;
+}
+.languageAsterisk{
+	top: -1em;
+	left: -0.5em;
+	font-size: 55%;
+}
+.panel-group .PagePanel .eurlexPanel{
+	border: 0px solid #EEE;
+}
+#rectificatifPanelContents > div > .PubFormats > .PubFormat{
+	background: #FFF;
+}
+.exi-recueil:after{
+	top:-272px;
+}
+.sortOptionsMargin{
+	margin-top:2px;
+}
+.forceIndicator span {
+	display: inline-block;
+}
+/*Notice TXT/ALL (end)*/
+
+/*Notice NIM (start)*/
+#ntmTable > hr{
+    margin-bottom: 10px;
+	width: 100%;
+}
+.ntmRow{
+	margin-bottom: 10px;
+}
+.ntmHeading{
+	background: #EEE;
+	padding: 5px;
+}
+.transposition{
+	border: 5px;
+	padding: 10px;
+}
+.panel-group .PagePanel .eurlexPanel .MT_panel{
+	border: 3px solid #EEE;
+}
+@media (max-width: 767px)
+{
+	#PPNtm_Contents > .panel-body {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.ntmRow {
+		padding-right: 0;
+	}
+	.ntmRow > .visible-xs{
+		margin-top: 5px;
+		background: #EFF8FB;
+	}
+	.ntmRow > .visible-xs > b {
+		font-weight: normal;
+	}
+	a.noNims {
+		padding-left: 0;
+	}
+	a.countryToggle {
+		font-weight: bold;
+	}
+	.countryPanel {
+		padding-left: 10px;
+	}
+	.ntmRow > div.col-sm-4 {
+		padding-left: 0;
+	}
+	.countryToggle.ViewMoreInfo{
+		padding-left: 27px;
+	}
+	.countryToggle.ViewMoreInfo:before, .countryToggle.ViewMoreInfo.collapsed:before {
+		left: 0px;
+	}
+}
+.countryPanel{
+	overflow-x: auto;
+	width: 100%;
+	background: #EEE;
+}
+.countryPanel > p > a{
+	margin-top: 15px;
+}
+.ViewMoreInfo.ntmMore:before{
+	/*content: url(../images/term.png);*/
+	content: none;
+	transform: none;
+}
+.ViewMoreInfo.ntmMore > span{
+	width: 22px;
+	border: 1px solid #0099CC;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: #0099CC;
+	user-select: none;
+	height: 15px;
+}
+.ViewMoreInfo.ntmMore.collapsed .VMIMore{
+	display: inline-block;
+}
+.ViewMoreInfo .VMIMore, .ViewMoreInfo.collapsed .VMILess {
+    display: none;
+}
+.ViewMoreInfo.ntmMore > span:hover {
+	background-color: #0099CC;
+	color: #ffffff;
+	border-color: #0099CC;
+	cursor: pointer;
+}
+.ViewMoreInfo.ntmMore.noNimsBtn > span:hover{
+	cursor: auto;
+}
+.noNims{
+	padding-left: 33px;
+	font-size: 13px;
+}
+.noNims:hover{
+	text-decoration: none;
+	color: #3366cc;
+	cursor: auto;
+}
+.eurlexPanel + .ntmRow{
+	border-top: 1px solid #EEE;
+}
+.ntmRow > div.col-sm-4{
+	margin-top: 10px;
+}
+.ntmRow.exMemberBorder{
+	height: 1px;
+	border-top: 4px solid #EEE;
+}
+.extraMarginTop{
+	margin-top: 20px;
+}
+/*Notice NIM (end)*/
+
+/* Notice Procedure/HIS (start) */
+#procedureHeading {
+	color: #444444;
+	overflow: auto;
+}
+#procedureHeading > p {
+	margin-top: 10px;
+}
+.ProcedureCMT, .ProcedureEDPS{
+    border-radius: 0;
+}
+.ProcedureEDPS{
+	background:#006400;
+}
+.ProcedureCOR{
+	background:#8e5d00;
+}
+.ProcedureCMT{
+	background: #99ff00;
+}
+.info-eult {
+	background-color: #f0f3f9;
+	border-color: transparent;
+	color: #444;
+	padding: 6px;
+}
+/* Notice Procedure/HIS (end) */
+
+/*Machine Translation (start)*/
+.ViewMoreInfo.MTInfo:before{
+	content: "";
+	transform: none;
+}
+.panel-collapse > .panel-body > ul{
+	padding-left: 0;
+}
+#multilingualPoint + .PagePanel{
+	margin-top: 10px;
+}
+#multilingualPoint + #multilingualPoint{
+	margin-top: 10px;
+}
+.MTlanguageSelect{
+	width: auto;
+}
+.MTbutton{
+	width: 120px;
+	height: 34px;
+}
+.MTFromTo{
+	font-weight: bold;
+	width: auto;
+}
+@media (max-width: 767px)
+{
+	.MTFromTo, .MTlanguageSelect, .MTbutton{
+		margin-bottom: 10px;
+	}
+	.MTlanguageSelect, .MTbutton{
+		margin-left: 10px;
+	}
+	.MTbutton{
+		float: left;
+	}
+}
+@media (min-width: 768px)
+{
+	.MTFromTo{
+		padding: 0px;
+		margin-top: 7px;
+		margin-right: 15px;
+	}
+}
+.mtImg{
+	position: absolute;
+    left: 0;
+}
+.mtImg + span, .mtImg + span + span{
+	margin-left:10px;
+}
+.countryPanel.childPanel > p{
+	margin-left: 5px;
+}
+/*Machine Translation (end)*/
+
+/*See also in Summaries chapters*/
+.see-also{
+	font-weight: bold;
+}
+.see-also-list ul li{
+    list-style-type: none;
+	padding: 5px 5px 5px 0px;
+}
+.see-also-list ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.editorialBottom{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+/*See also in Summaries chapters (end)*/
+
+/*Summaries chapters*/
+.summaryPageTools {
+	padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+ul.summaryTree {
+	padding-left: 0px;
+}
+ul.summaryTree li {
+	list-style: none;
+	margin: 4px 0;
+	padding-left: 4px;
+}
+ul.storedSummaryLink {
+    padding-left: 10px;
+}
+ul.storedSummaryLink li {
+	list-style-type: none;
+}
+ul.storedSummarybrowseTree {
+    padding-left: 18px;
+}
+ul.storedSummarybrowseTree li{
+	list-style: none;
+	margin: 4px 0;
+}
+ul.storedSummarybrowseTreeLeaf li.summaryDoc {
+	padding-left: 12px;
+	font-weight: normal;
+	margin-left:0px;
+}
+ul.storedSummarybrowseTree li a.summaryTopicTitle {
+	font-weight: bold;
+}
+ul.storedSummarybrowseTree > li > a.firstLevel, ul.storedSummarybrowseTree > li > a.firstLevel:visited {
+	color: #097eaa !important;
+}
+ul.storedSummarybrowseTree > li > a.lowerLevel, ul.storedSummarybrowseTree > li > a.lowerLevel:visited {
+	color: #444 !important;
+}
+ul.storedSummarybrowseTreeLeaf {
+	padding-left: 10px;
+}
+.affix-top #summariesByTopic {
+	top: 100%;
+}
+.affix #summariesByTopic {
+	margin-top: 20px;
+}
+#summariesByTopic {
+	position: absolute;
+    height: 600px;
+    overflow-y: auto;
+    width: inherit;
+}
+#summariesByTopic li.Selected {
+	display: block;
+    padding: 5px 10px 5px 10px;
+	background: #888f9e;
+    color: #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+}
+#summariesByTopic li {
+	padding: 0px 5px 0px 5px;
+}
+#summariesByTopic li a{
+	font-size: 12px;
+	color: #3366cc;
+}
+#summariesByTopic li a.active {
+	outline: 3px solid #ffd617;
+}
+#summariesByTopic .MenuList a:hover {
+	color: #5599ff;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+/*4601 ECB summaries*/
+
+ul.ecbSummaryTree  {
+	padding-left: 0px;
+}
+ul.ecbSummaryTree li {
+	margin: 4px 0;
+	padding-left: 4px;
+}
+ul.ecbStoredSummaryLink {
+	padding-left: 10px;
+}
+ul.ecbStoredSummaryLink, ul[id^="ecbStoredSummaryLink"]  {
+	list-style-type: none;
+}
+ul.ecbStoredSummarybrowseTree li{
+	list-style: disc;
+	margin: 4px 0;
+}
+li.ecbSummaryDocLeafs {
+	list-style: square !important;
+	color:#337ab7;
+	margin: 4px 0;
+}
+ul.summaryTree li {
+	list-style: circle !important;
+	margin: 4px 0;
+	padding-left: 4px;
+}
+ul.ecbStoredSummarybrowseTreeLeaf li.ecbSummaryDoc {
+	padding-left: 12px;
+	font-weight: normal;
+	margin-left:0px;
+	list-style: circle ;
+
+}
+.btnECB{
+	text-decoration: none !important;
+}
+#ecbSummaryParentLabel {
+	padding: inherit;
+}
+#ecbSummaryParentLabelMulti{
+	padding-left: 5px;
+}
+#ecbSummaryParentLabel:hover {
+	text-decoration: underline;
+}
+.btnECB:focus  #ecbSummaryParentLabel {text-decoration: underline;}
+ul.ecbStoredSummarybrowseTreeMultipleNodes{
+	padding-left: 13px;
+}
+ul.ecbStoredSummarybrowseTree li::marker{
+	width: 20px;
+	color: #CCC;
+}
+ul.ecbStoredSummarybrowseTreeLeafs  li::marker{
+	color:#337ab7;
+}
+ul.MultipleNodesPadding {
+	padding-left: 45px;
+}
+
+/*EURLEXNEW-4352, add external link icon to intro text links*/
+div.intro_section a[href]:not([href*='eur-lex']):not([href^='.']):not([href^='#']):not([href^='/']):not([href^='javascrip']):not([href^='https://europa.eu/european-union/']):after {
+    font-family: 'FontAwesome';
+    /*content: "\f08e";*/
+    margin-left: 5px;
+}
+/*Summaries chapters (end)*/
+
+/*make the very long text wrap*/
+.longtext-wrap {
+    word-break: break-all; /* webkit */
+    word-wrap: break-word;
+   /* white-space: pre;*/
+    /*white-space: -moz-pre-wrap;*/ /* fennec */
+    /*white-space: pre-wrap;*/
+    /*white-space: pre\9;*/ /* IE7+ */
+}/*Summaries sub-chapters (end)*/
+
+/*Summaries adv Search form*/
+.displayElement{
+	display:block;
+}
+/*Summaries adv Search form (end)*/
+
+/*Advanced Search form*/
+.searchHiddenBtn{
+	position:absolute;
+	left:-10000px;
+}
+.RemoveControlAddon,
+.input-group-sm > .RemoveControlAddon{
+	border:0;
+	padding:0 0px;
+	border-radius:0 1px 2px 0;
+	background:rgba(0,0,0,.05);
+	font-size:14px;
+}
+.RemoveControlAddon button{
+	color:#c00;
+	border-style:none;
+}
+.RemoveControlAddon button:hover,
+.RemoveControlAddon button:focus{
+	color:#900;
+}
+.panel-group .AdvancedSearchPanel + script + .AdvancedSearchPanel {
+    margin-top: 10px;
+}
+/*change the margin between radio buttons*/
+.GroupRadioMargin{
+	margin-bottom:2px;
+	margin-top:2px;
+}
+.GroupCheckLabelOther{
+	pading:5px 4px;
+	display: table-cell;
+    background: rgba(255,255,255,.3);
+    vertical-align: middle;
+    border: 1px solid #cccccc;
+    padding-left: 8px
+}
+/*EURLEXNEW-4657 - Advanced search - Misalignment issues*/
+.input-group.input-group-sm:has(>label.GroupCheckLabelOther){
+	margin-left: -9px
+}
+.GroupCheckLabelOther span {
+    display: block;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.GroupCheckLabelOther input {
+    float: left;
+}
+.DateLabelMargin{
+	margin-top:23px;
+}
+span[id*="Calendarbtn"] {
+	border:none;
+	padding:0px 0px 0px 0px !important; ;
+}
+/*override the style of cursor in datepicker view mode */
+.datepicker-years .picker-switch {
+cursor: default !important;
+background: inherit !important;
+}
+.rowDateRange{
+	margin-left: 50%;
+}
+@media (max-width: 991px) {
+	.rowDateRange {
+		margin-left:0%;
+	}
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+	.AdvancedSearchPanel .col-md-push-10{
+		padding: 10px 2px;
+	}
+}
+.ProcRadioMargin{
+	margin-top:40px;
+}
+.greyedOut {
+	 opacity:0.4;
+}
+
+/*Scrolling Search bar: EURLEXNEW-3524*/
+.AdvancedSearchBar.affix {
+  top: 0;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1000;
+  border: 3px solid rgba(8, 127, 170, 0.5);
+  max-width: 1200px;
+}
+@media (max-width: 767px) {
+	.AdvancedSearchBar .hidden-sm.hidden-md.hidden-lg {
+		z-index: 1;
+	}
+	.AdvancedSearchBar .hidden-sm.hidden-md.hidden-lg div{
+		margin-bottom: 15px;
+	}
+	.AdvancedSearchBar.affix > .row > div:not(:first-child) {
+		visibility: hidden;
+		height: 0;
+	}
+}
+.AdvancedSearch #facets {
+	background: #EEE;
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+.AdvancedSearch #facets ul{
+    margin-left: 40px;
+    padding: 0;
+    list-style: none;
+}
+.AdvancedSearch #facets ul > li:before {
+	content: "";
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 33px;
+    width: 5px;
+    height: 5px;
+    background: #097eaa;
+}
+.AdvancedSearch #facets ul input {
+	margin-top: 3px
+}
+/*Scrolling Search bar: EURLEXNEW-3524 (end)*/
+/*Advanced Search form (end)*/
+
+/* Procedure timeline */
+ #timeline-container {
+	overflow-x:auto;
+	overflow-y:hidden;
+ }
+#timeline-container > dt.timelineDt {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding:0;
+	padding-left: 5px;
+	border-bottom: 1px solid #f5f5f5;
+}
+#timeline-container > dt.invisible{
+	padding: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#timeline-container > dd.timelineDd {
+	padding:0;
+	border-bottom: 0px solid #CCC;
+}
+#timeline-container > dd.timeline-line.timelineDd.visible-xs{
+	padding-left: 5px;
+	background: #f5f5f5;
+	color: #08749B;
+    font-weight: normal;
+}
+#timeline-container > dd.yearDd {
+	border-bottom: 0;
+	padding:0;
+}
+@media (max-width: 991px) {
+	#timeline-container > dd{
+		padding: 5px 5px;
+		width:100%;
+	}
+	.timeline-line.timelineDd.visible-xs {
+	padding: 5px 5px;
+	background: #f5f5f5;
+	color: #08749B;
+    font-weight: normal;
+	}
+}
+dd.yearDd > .tm-years > span {
+	border-top: 0;
+	z-index: 1;
+}
+.timeline-line {
+	border-bottom:1px solid #CCC;
+	background-color:#EFF8FB;
+}
+.tm-events {
+	position:relative;
+	min-height:20px;
+}
+.tm-events a {
+	position:absolute;
+	margin-left:35px;
+}
+.tm-years {
+	position:relative;
+	min-height:20px;
+	background: #FFF;
+}
+.tm-years span {
+	position:absolute;
+	width:60px;
+	text-align:center;
+}
+.tm-years span:before {
+	content : ".";
+	border-left:1px solid #ccc;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	color:#EFF8FB;
+	margin: -10px 0 0 0;
+	z-index: -1;
+}
+.tm-year-separator {
+	position:absolute;
+	border-left:1px solid #ccc;
+	height:100%;
+}
+
+/* bubble classes used by Timeline plugin. Refactored styles to reflect bootstrap's popover classes */
+.bubble-container {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1060;
+	width:299px;
+	padding:1px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:left;
+	text-align:start;
+	text-decoration:none;
+	text-shadow:none;
+	text-transform:none;
+	letter-spacing:normal;
+	word-break:normal;
+	word-spacing:normal;
+	word-wrap:normal;
+	white-space:normal;
+	background-color:#fff;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	border:1px solid #ccc;
+	border:1px solid rgba(0,0,0,.2);
+	border-radius:6px;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);
+	box-shadow:0 5px 10px rgba(0,0,0,.2);
+	line-break:auto;
+}
+@media(max-width: 767px){
+	.bubble-container {width: auto;}
+}
+.bubble-right {
+	margin-left:10px;
+}
+.bubble-left {
+	margin-left:-10px;
+}
+.bubble-container .bubble > dd, .bubble-container .bubble > span, .bubble-container .bubble > div, .bubble-container .bubble > .detail-ev {
+	padding: 1px 14px 1px 14px;
+}
+.bubble-container .bubble a.title-ev,.bubble-container .bubble div.title-ev {
+	display:block;
+	padding:9px 14px 3px 14px;
+	margin:0;
+	font-size:14px;
+	background-color:#f7f7f7;
+	border-bottom:1px solid #ebebeb;
+	border-radius:5px 5px 0 0;
+}
+.bubble-container .bubble span {
+	color:#AAA;
+	display:block;
+}
+.bubble-container .bubble a.detail-ev {
+	color:#aa8b2b;
+	display:block;
+}
+.bubble > a:first-of-type {
+    display: none;
+}
+@media(min-width: 768px){
+	.bubble-container .bubble .bubble-deco{
+		position:absolute;
+		z-index:5122;
+		left:139px;
+		bottom:-15px;
+		background:url(../../images/pointe.png) center top no-repeat;
+		width:30px;
+		height:15px;
+	}
+	.bubble-right .bubble .bubble-deco{
+		left:-30px;
+		bottom:auto;
+		top:7px;
+		background:url(../../images/pointe-left.png) right center no-repeat;
+	}
+	.bubble-left .bubble .bubble-deco{
+		right:-16px;
+		bottom:auto;
+		top:7px;
+		background:url(../../images/pointe-right.png) right center no-repeat;
+		left:auto;
+	}
+}
+/*Procedure timeline (end)*/
+
+/*Paging*/
+.form-control.input-sm.pagingInvalid{
+	border: 1px solid red;
+	outline: 0;
+	color: red;
+}
+.form-control.fewPages{
+    padding: 5px 9px 3px 9px;
+    border-radius: 1px;
+}
+.PaginationGroup .form-control {
+	border: 2px solid #087faa;
+}
+.bottomPaging{
+	order: 2;
+	margin-top: 10px;
+}
+/*Paging (end)*/
+
+/*Multilingual display*/
+.multilingualLink{
+	padding:15px;
+}
+.EurlexContent.col-xs-12.visible-xs-block.visible-sm-block{
+	min-height: none;
+}
+#multilingualText > tbody > tr > td{
+	padding: 2px 2px 2px 5px;
+	border: 1px solid white;
+}
+.multilingualActionLinks{
+	-webkit-padding-start: 0;
+}
+.multilingualHeading{
+	background: #EEE;
+}
+.multilingualHeading > .panel-title{
+	margin-top:0;
+}
+.nomarginSeparator{
+	margin:0;
+}
+/*TODO: re-evaluate this*/
+/*This is some of the old css used in multilingual display*/
+.multilingual-line{
+	overflow:hidden;
+	clear:both;
+	position:relative;
+	zoom:1;
+}
+.multilingual-line-text{
+	margin-bottom:5px;
+}
+.multilingual-column{
+	float:left;
+	word-wrap: break-word;
+	/* EURLEXNEW-4219 */
+	max-width: 780px;
+}
+.multilingual-error-column{
+	font-weight: bold;
+}
+/*Multilingual display (end)*/
+
+/*Data Tables custom css*/
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+	font-weight: bold;
+	background-color: #dddddd;
+	text-align: left;
+	padding: 6px 4px 4px 6px;
+	vertical-align: top;
+	height: 50px;
+	cursor: pointer;
+	*cursor: hand;
+}
+.data-table #relatedDocsTb th,
+.data-table-MS #relatedDocsTbMS th{
+	border-left:1px solid white;
+}
+#relatedDocsTb_filter, #relatedDocsTbMS_filter{
+	display: none;
+}
+#relatedDocsTbMS th select,
+#relatedDocsTb th select{
+	display: block;
+	height: fit-content !important;
+	padding: unset !important;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before{
+	background-color: #087faa !important;
+}
+/*Data Tables custom css (end)*/
+/* Expert Search form (start)*/
+#expertHelp > .fa-spinner{
+    font-size: 35px;
+	margin-top: 200px;
+	color: #087faa;
+}
+.ExpertSearchValuePanel > .fa-spinner{
+    font-size: 35px;
+	color: #087faa;
+}
+#filter > .fa-spinner{
+    font-size: 15px;
+	color: #087faa;
+}
+.has-error .form-control.NoBorders{
+	border: 1px solid #a94442;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+div#input-file.has-error span.btn{
+	border: 1px solid #a94442;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	border-left: none;
+}
+.exDate > .btn, .rangeDate > .btn{
+	margin-top: 10px;
+}
+.ExpertSearchValueTree > a.has-arrow:before, .ExpertSearchValueTree a.has-arrow.expandNode:before {
+    transform: rotate(90deg) translate(0, 10%);
+	cursor: pointer;
+}
+/* For ecb do not rotate */
+.Ecb-widget .ExpertSearchValueTree > a.has-arrow:before, .Ecb-widget .ExpertSearchValueTree a.has-arrow.expandNode:before {
+	transform: rotate(0deg) translate(0, 10%);
+	cursor: pointer;
+}
+
+/* Override because cursor:pointer doesn't work in :before in IE */
+.ExpertSearchValueTree a.has-arrow{
+    cursor: pointer;
+}
+.ExpertSearchValueTree a.has-arrow:before{
+    cursor: pointer;
+}
+.ExpertSearchValueTree a.has-arrow:hover{
+    text-decoration:none;
+}
+.ExpertSearchValueTree label div, .ExpertSearchValueTree label div + div{
+	display: inline;
+}
+/* EURLEXNEW-4374 Grey bullets at ECB/Browse by topic */
+#EcbMenuBlock1 .ExpertSearchValueTree li.leaf i.fa-circle {
+	font-family: FontAwesome;
+	width: 20px;
+	color: #CCC;
+	font-size: 6px;
+	position: absolute;
+    left: -10px;
+    top: 5px;
+}
+.ExpertSearchTreeDisplayItem{
+    display: list-item;
+}
+/* EURLEXNEW-3967 */
+.backdrop {
+  z-index: 1;
+  background-color: #fff;
+  overflow: auto;
+  pointer-events: none;
+  height:  112px;
+}
+.highlights {
+	border: 0;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    height: auto;
+    padding: 6px 12px;
+    color: transparent;
+    overflow: auto;
+}
+.ExpertSearch .ExpertSearchQuery .textareaContainer {
+	z-index: 2;
+	background-color: transparent;
+	margin-top: -112px;
+}
+.ExpertSearch .ExpertSearchQuery textarea {
+	height: 112px;
+	background-color: transparent;
+}
+@media (min-width: 768px) {
+	#nbZoomTerms{
+		width: auto;
+	}
+}
+/* Expert Search form (end)*/
+
+/* ECB tree */
+/*
+.Ecb-ExpertSearchValueTree > a.has-arrow:before, .ExpertSearchValueTree a.has-arrow.expandNode:before {
+	transform: rotate(90deg) translate(0, 10%);
+	cursor: pointer;
+}
+!* Override because cursor:pointer doesn't work in :before in IE *!
+.Ecb-ExpertSearchValueTree a.has-arrow{
+	cursor: pointer;
+}
+.Ecb-ExpertSearchValueTree a.has-arrow:before{
+	cursor: pointer;
+}
+.Ecb-ExpertSearchValueTree a.has-arrow:hover{
+	text-decoration:none;
+}
+.Ecb-ExpertSearchValueTree label div, .ExpertSearchValueTree label div + div{
+	display: inline;
+}
+.Ecb-ExpertSearchValueTree li.leaf:before{
+	content: "\f111";
+	font-family: FontAwesome;
+	width: 20px;
+	color: #CCC;
+	font-size: 6px;
+	position: absolute;
+	left: -10px;
+	top: 5px;
+}
+*/
+
+
+
+
+
+
+a.treeLabelLink{
+	display: block;
+    position: relative;
+    left: 0;
+    width: auto;
+    text-align: left;
+}
+.ExpertSearchFieldPanel em, .metadataGroupTree em {
+	color: #0CC;
+    font-style: italic;
+    display: inline;
+}
+.ExpertSearchFieldPanel a {
+    font-weight: normal;
+    color: #444;
+}
+.ExpertSearchValuePanel #searchResult{
+	list-style-type: none;
+}
+.ExpertSearchValuePanel #searchResult a{
+	cursor: pointer
+}
+/*Expert Search form (end)*/
+/*Switch to desktop*/
+.switchToDesktop{
+	background-color: transparent;
+	border-top: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+/*Switch to desktop (end)*/
+/*Remove - from li in tables (eg Notice MS-MD mobile)*/
+.NMetadata dd table li:before{
+	display: none;
+}
+/*Remove - from li in tables(end)*/
+
+/* Specifies the additional styling for the full page spinner in */
+.spinner-font {color: silver;}
+
+/* Search Results (start) */
+.SearchResult h2 a {
+    color:#003399;
+}
+.SearchResult > h2 > a > em{
+	color:#333333;
+	font-style:italic;
+	display: inline;
+	background-color: #FFFD38;
+}
+.forceIndicatorBullet{
+	margin-right:10px;
+	vertical-align: inherit;
+}
+.multiLink a {
+	color: #097eaa;
+    margin: 5px;
+}
+/*paragraphs*/
+.textUnderTitle {
+	margin-bottom: 2px;
+}
+/* Search Results (end) */
+
+/* Highlighting in CELLAR text*/
+span.highlight {
+	background-color: yellow;
+}
+table tr.highlight td, table tr.highlight:hover td {
+	background-color:#BBB;
+}
+/* Highlighting in CELLAR text (end)*/
+
+/* Tabs */
+.tabContainer{
+	position:relative; zoom:1;
+}
+.nav-tabs{
+	overflow:hidden;
+	zoom:1;
+	margin-left:0;
+	margin-top:0px;
+	background-color:#BBB;
+}
+.nav-tabs li{
+	list-style:none;
+	float:left;
+	position: relative; white-space: nowrap;
+	background:none;
+	padding:0;
+	border-right:1px solid #FFF;
+}
+.nav-tabs li a{
+	padding:5px 15px;
+	background-color:#BBB;
+	display:block;
+	text-decoration:none;
+	color:#444;
+	font-size:1em;
+}
+.nav-tabs li.active a{
+	background:none;
+	background-color:#EEE;
+	color:#444;
+	margin-bottom:0;
+}
+.nav-tabs li:hover a{
+	color:#FFF;
+	background-color:#59F;
+}
+.nav-tabs li.active:hover a{
+	background-color:#EEE;
+	color:#444;
+}
+.tab-content{
+    padding: 5px;
+}
+/* In case the tabs are in a Form */
+.EurlexForm .tab-content{
+    background-color:#FFF;
+}
+/* In case the tabs are in a modal */
+.modal-body .tab-content{
+    background-color:#EEE;
+}
+/* In case of modals if the EurlexForm class is used */
+.white-back{
+	background-color:#FFF;
+}
+/* In case of a modal with a EurlexForm class is used inorder for form field to be correctly displayed */
+.modal-body .EurlexForm .row{
+	margin-bottom:15px;
+}
+.tab-content .overflowedAllTabs{
+	height:300px;
+	overflow:auto;
+	zoom:1;
+	display:block;
+	position:relative;
+	background-color:#FFF;
+}
+/* In case the tabs are in a modal */
+.modal-body .tab-pane{
+	padding: 5px;
+    background-color:#FFF;
+}
+.spacer{
+	padding-top: 15px;
+}
+.ModalActions{
+	margin-top: 15px;
+	text-align: right;
+	padding-bottom: 10px;
+}
+.fixedModalFilterForm{
+	margin-bottom: 2px;
+}
+/* Tabs (end) */
+/* browserNotSupported*/
+.browserNotSupported{
+	background-color: #fcf8e3 !important;
+	border-color: #faebcc !important;
+	color: #8a6d3b !important;
+    font-size: 0.9em;
+    margin: 0 0 5px;
+    padding: 2px 0 2px 20px;
+    text-align: center !important;
+}
+/* browserNotSupported (end) */
+
+.noDisplay{
+	display:none;
+}
+
+/* Expert zoom (start)*/
+tr.zoomHidden, a.zoomHidden {
+	display:none;
+}
+tr.zoom {
+	text-align:center;
+}
+tr.zoom td {
+	padding-bottom: 2em;
+}
+.zoomed {
+	width: 100%;
+	padding-bottom: 2em;
+}
+.zoomed ul {
+	background-color: #eee;
+	padding: 5px;
+	list-style-type: none;
+}
+.zoomed ul > li {
+	margin: 3px 0px 3px 0px;
+	word-break: break-word;
+}
+.zoomed ul > li > em{
+	color: #333333;
+	font-style: italic;
+	display: inline;
+	background-color: #FFFD38;
+}
+.zoom-metadata {
+	font-weight: bold;
+}
+/* Expert zoom (end)*/
+
+/* My saved documents (start) */
+	/*print icon fix */
+.SearchResult > label > a > .fa-print {
+	margin-top: 10px;
+}
+/* My saved documents (end) */
+/* Other stuff */
+.PageTitle > .row > .hidden-xs a{
+	text-decoration: none;
+}
+/* Other stuff (end) */
+/* add margin right (start) */
+.buttonFixRight{
+	margin-right: 2px;
+}
+/* add margin right (end) */
+
+/* ------------------------------------------------  2.1 ------------------------------------------------------------*/
+/* Notice Page for mobile */
+#PP4Contents #loadingImg{
+	color: #087faa;
+	font-size: 4em;
+	margin: 10px;
+}
+#textLoadBtn, #btn-generate-pdf{
+	height: 40px;
+    margin: 10px 0 10px 0;
+	font-weight: bold;
+	font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+#ojTabContent.ojDisabled{
+	border-left: none;
+	padding-left: 0;
+}
+.documentSeparator{
+	background: #EEE;
+}
+/* Notice Page for mobile (end)*/
+/* Splashscreen */
+#splash {
+	background: #039 url(../../images/SplashLaw.gif) left top no-repeat;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#splash .globan {
+	width: 100% !important;
+}
+#splash .cck-container{
+	margin: auto ;
+	max-width:none !important;
+	width: 100% !important;
+}
+#splashLogo {
+	margin-left: 163px;
+}
+#splashMenu {
+	margin-left: 249px;
+	width: 600px;
+}
+#splash h1 {
+	margin: 0 0 6px 0;
+	font-size: 27px;
+	line-height: normal;
+	color: #9CF;
+}
+#splash h1 .siteName {
+	font-weight: bold;
+	color: #09C;
+}
+#splash ul {
+	list-style: none;
+	line-height: 17px;
+	font-size: 12.8px;
+	padding: 0;
+}
+#splash ul li a {
+	color: #9CF;
+}
+#splash span.countryCode {
+	float: left;
+	width: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #10B3EE;
+}
+
+#splash .Wrapper {
+	background: inherit;
+	max-width: none;
+}
+@media (max-width: 767px){
+	#splash{
+		background: #039 url(../../images/SplashLaw.gif) left -150px top no-repeat;
+	}
+ 	#splashLogo {
+		position: relative;
+		left: 0;
+		top: 0;
+		margin-top: 10px;
+	}
+	#splashMenu {
+		position: relative;
+		left: auto;
+		top: auto;
+		width: auto;
+		margin-left:10px;
+	}
+}
+/* Splashscreen (end)*/
+/* override white-space not to wrap (start)*/
+.normalTextWrap li{
+    white-space: normal !important;
+}
+/* override white-space not to wrap (end)*/
+/* Revamp of procedures */
+.procStatus{
+	background-color: inherit;
+	border-color: inherit;
+}
+.procStatus i{
+	font-size: 18px;
+}
+.procStatus.procWithdrawn{
+	color: #da3531;
+}
+.procStatus.procPending{
+	color: #c2923e;
+}
+.procStatus.procAdopted{
+	color: #29a82b;
+}
+#procedureHeading .col-xs-12{
+	margin-top: 10px;
+}
+#procedureHeading .col-xs-12, #procedureHeading .col-xs-6{
+	padding: 0;
+}
+#procedureHeading .col-sm-8 {
+	padding-right: 30px;
+}
+#timeline-container.revampedTl dd > .tm-events{
+	background: #eff8fb;
+	border-bottom: none;
+}
+.procDetailsLink, .procInfoLink{
+    border: none;
+    background-color: transparent;
+	text-transform: none;
+	color: #444444;
+	padding: 0;
+}
+.procInfoLink {
+	display: inline-block;
+}
+.procDetailsLink:after {
+	/*content:"\f106";*/
+	font-family:FontAwesome;
+	font-size:14px;
+	font-weight:normal;
+	position:absolute;
+	width:15px;
+	text-align:center;
+	color:#097eaa;
+	margin-left: 10px;
+	transition:all .1s ease-out;
+}
+/*.procDetailsLink.collapsed:after				{content:"\f107";} Deprecated per EURLEXNEW-4374 */
+.procDetailsLink:hover:after,
+.procDetailsLink:focus:after					{text-decoration:underline;}
+.procDetailsLink:hover:after,
+.procDetailsLink:focus:after					{text-decoration:none;}
+.procDetailsLink .VMIMore,
+.procDetailsLink.collapsed .VMILess			{display:none;}
+.procDetailsLink .VMILess,
+.procDetailsLink.collapsed .VMIMore			{display:inherit;}
+.procDetailsLink:focus                      {outline:3px solid #ffd617; outline-offset:2px;}
+
+#procedureHeading .GridDL dt, #pubOjHeading .GridDL dt {
+	background: inherit;
+}
+#pubOjHeading .GridDL {
+	margin: 20px;
+}
+#procedureHeading ul.Bulleted {
+	margin-top: 40px;
+}
+@media (max-width : 767px){
+	#pubOjHeading .GridDL {
+		margin: 10px 0px;
+	}
+	#procedureHeading ul.Bulleted {
+		margin-top: 20px;
+	}
+}
+#procedureHeading ul.Bulleted a{
+	color: #31708f;
+}
+#pubOjHeading {
+	color: #444444;
+	overflow: auto;
+	background-color: #EEE;
+	border-color: #C0C0C0;
+	margin-bottom: 0;
+    background: url(../images/bg_oj.png) #eee no-repeat 95% 2%;
+    background-size: 117px auto;
+}
+.procSteps + #pubOjHeading {
+	display: inline-block;
+    width: 100%;
+	margin-top: 23px;
+}
+.procExpandCollapse,.caseExpandCollapse, .bolExpandCollapse  {
+	background: #FFF;
+	margin: 0;
+	z-index: 1;
+}
+.procExpandCollapse .btn-group-xs, .caseExpandCollapse .btn-group-xs, .bolExpandCollapse .btn-group-right {
+	float: right;
+}
+#pubOjHeading > span {
+	color: #444;
+	font-size: 16px;
+	font-weight: bold;
+}
+#procedureDetails > dl .ViewMoreInfo {
+	display:none;
+}
+/* Revamp of procedures (end) */
+
+/*noJS buttons (start)*/
+.openQuestionNoJS, .advancedSearchNoJS, .daByYear, .preActsNoJS, .searcResultsNoJS, .facetsNoJS{
+	margin-top:10px;
+}
+.reportAbuseNoJS{
+    margin-left: 10px;
+}
+.daFormNoJs{
+	margin-bottom:10px;
+}
+select#languageSelect, select#languageSelectNoJs{
+	display: inline-block;
+	width: auto;
+}
+.ExpertSearchValueTree input.hideInJs{
+    position: absolute;
+    top: 6px;
+    left: -10px;
+}
+.input-group-sm .input-group-btn .clearFormNoJS{
+	margin-left: 5px;
+}
+.displayMtDtNoJS {
+	margin-left: 101%;
+    margin-top: -57px;
+}
+.browseTree .ViewMoreInfo {
+	display: inline-block;
+}
+.no-js .QuickSearchOptions{
+	padding: 20px 10px 20px 40px
+}
+@media (max-width: 767px){
+	.no-js .QuickSearchOptions {
+	    padding: 15px;
+	}
+}
+/*noJS buttons (end)*/
+/*EURLEXNEW-3409 - Appearance of procedure tab when document belongs to several procedures*/
+.initiatingDocument{
+	margin-top: 10px;
+}
+#linkedProcedureTable.GridDL.GridDL4060 .linkedProcsHeading{
+	font-weight: bold;
+	background-color: #FFF;
+}
+#linkedProcedureTable {
+	margin-top: 30px;
+}
+/*EURLEXNEW-3409 - Appearance of procedure tab when document belongs to several procedures (end)*/
+/*Secondary Left navigation menu*/
+.SidebarTools.secondaryMenu a{
+	color:#3366cc;
+}
+/*Secondary Left navigation menu (end)*/
+/*Fix on notice display for small screens. When the Languages, Formats and link to OJ table is transformed into drop down menus,
+  they don't overlap with button groups below them*/
+.PubFormat:nth-child(2) > .btn-group{
+	z-index: 1010;
+}
+.PubFormat:nth-child(3) > .btn-group{
+	z-index: 1009;
+}
+.PubFormat:nth-child(4) > .btn-group{
+	z-index: 1008;
+}
+.PubFormat:nth-child(5) > .btn-group{
+	z-index: 1007;
+}
+.PubFormat:nth-child(6) > .btn-group{
+	z-index: 1006;
+}
+.PubFormat:nth-child(7) > .btn-group{
+	z-index: 1005;
+}
+/*Fix on notice display for small screens. When the Languages, Formats and link to OJ table is transformed into drop down menus,
+  they don't overlap with button groups below them (end)*/
+/*search/direct access widgets (start)*/
+.WidgetSearchBtn {
+	margin-bottom: 13px;
+}
+.inputNoLabel{
+	margin-top: 25px;
+}
+@media(max-width: 767px){
+	.WidgetSearchBtn {
+		float: right;
+	}
+}
+.panel-group .PanelA .panel-title.panel-title-widget{
+	font-size: 1.1em;
+}
+#WDGPanels{
+	margin-top: 20px;
+}
+/*search/direct access widgets (end)*/
+/*	Horizontal overflow fix for long notixe texts
+	Allow long words to be able to break and wrap onto the next line*/
+#PP4Contents, #PP4ContentsPdf{
+    word-wrap: break-word;
+    overflow-x: auto;
+}
+
+/*usage statistics vertical alignment (start)*/
+table[id^="visitTable"] th:first-child,
+table[id^="visitorTable"] th:first-child,
+table[id^="pageViewsTable"] th:first-child,
+table[id^="documentConsultedTable"] th {
+	white-space: normal;
+	width: 180px;
+}
+table[id^="visitTable"] td,
+table[id^="visitorTable"] td,
+table[id^="pageViewsTable"] td,
+table[id^="documentConsultedTable"] td {
+	width: 180px;
+}
+/* Medium Devices, Desktops */
+@media (max-width : 991px){
+	table[id^="visitTable"] th:first-child,
+	table[id^="visitorTable"] th:first-child,
+	table[id^="pageViewsTable"] th:first-child,
+	table[id^="documentConsultedTable"] th,
+	table[id^="visitTable"] td,
+	table[id^="visitorTable"] td,
+	table[id^="pageViewsTable"] td,
+	table[id^="documentConsultedTable"] td {
+		min-width: 150px;
+	}
+}
+/* Small Devices, Tablets */
+@media (max-width : 767px){
+	table[id^="visitTable"] th:first-child,
+	table[id^="visitorTable"] th:first-child,
+	table[id^="pageViewsTable"] th:first-child,
+	table[id^="documentConsultedTable"] th,
+	table[id^="visitTable"] td,
+	table[id^="visitorTable"] td,
+	table[id^="pageViewsTable"] td,
+	table[id^="documentConsultedTable"] td {
+		min-width: 66px;
+	}
+}
+/*usage statistics vertical alignment (end)*/
+/* Notice search buttons layout fix -- EURLEXNEW-3486 */
+.noticeSearchLinks{
+	display: inline-block;
+}
+@media(min-width: 992px){
+	.noticeSearchLinksBtnGroup{
+		margin-left: -20px;
+	}
+}
+@media(max-width: 991px){
+	.noticeSearchLinksBtnGroup{
+		text-align: right;
+	}
+}
+/* Notice search buttons layout fix -- EURLEXNEW-3486 (end)*/
+/*disable transition for help toggle menu - EURLEXNEW-3479 (start)*/
+.notransition {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+/*disable transition for help toggle menu - EURLEXNEW-3479 (end)*/
+/*remove extra padding - EURLEXNEW-3497, EURLEXNEW-3525 (start)*/
+@media (max-width : 991px) {
+	.AdvancedSearchPanel .panel-body{
+		padding-bottom: 0px;
+		margin-bottom: -5px;
+	}
+	.AdvancedSearchPanel .FormFieldset:last-child{
+		padding-bottom: 0px;
+	}
+	#documentReference_EU_CASE_LAW .panel-body,
+	#procedureReferenceBox_LEGAL_PROCEDURE .panel-body{
+		padding-bottom: 10px
+	}
+	#partiesBox_EU_CASE_LAW .CheckRadioGroup{
+		margin-bottom: 0px;
+		padding-bottom: 10px;
+	}
+}
+@media (max-width : 767px){
+    .AdvancedSearchCondition .form-group,
+    .panel.panel-default.AdvancedSearchPanel .form-group.noMarginBottom {
+        margin-bottom: 0px !important;
+    }
+}
+.modal-body .EurlexForm{
+	margin: 1px 0 1px 0;
+	padding-bottom: 1px;
+}
+/*remove extra padding - EURLEXNEW-3497 (end)*/
+/*remove line break in menu when we hide li element in mobile (start)*/
+@media (max-width : 991px){
+	.MenuList .removeBorderBottom{
+		border-bottom: none;
+	}
+}
+/*remove line break in menu when we hide li element in mobile (end)*/
+/*wrap elements in div and add this class to float together (start)*/
+.floatTogether{
+	display: inline-block;
+}
+/*wrap elements in div and add this class to float together (end)*/
+/* Styling for error messages (start)*/
+span.errorMessage{
+	color: red !important;
+	font-weight: bolder  !important;
+}
+/* Styling for error messages (end)*/
+
+/* Remove the 'X' icon from all input tags on IE (start)*/
+input[type="text"]::-ms-clear {
+    display: none;
+}
+/*  Remove the 'X' icon from all input tags on IE (end)*/
+
+/* EURLEXNEW-3554 - PublicAccess Phase 3 Adaptations (start)*/
+/* Tree structure styling for events under workflows */
+.tree li {
+  	list-style-type:none;
+  	margin:0;
+   	padding:10px 5px 0 5px;
+   	position:relative
+}
+.tree ul:nth-child(1) {padding-left: 0px}
+.tree li::before, .tree li::after {
+	content:'';
+   	left:-20px;
+   	position:absolute;
+   	right:auto
+}
+.tree li::before {
+   	border-left:2px solid #c9c9c9;
+  	bottom:50px;
+   	height:100%;
+   	top:0;
+   	width:2px
+}
+.tree li::after {
+   	border-top:2px solid #c9c9c9;
+   	height:20px;
+   	top:25px;
+   	width:25px
+}
+.tree li span {
+     /*-moz-border-radius:5px;
+   	-webkit-border-radius:5px;
+   	border:1px solid #999;
+   	border-radius:5px;
+   	display:inline-block;
+   	padding:3px 8px;
+   	text-decoration:none*/
+}
+.tree li.parent_li>span {
+   	cursor:pointer
+}
+.tree>ul>li::before, .tree>ul>li::after {
+   	border:0
+}
+.tree li:last-child::before {
+   	height:27px
+}
+.tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+   	background:#eee;
+   	border:1px solid #94a0b4;
+   	color:#000
+}
+/* EURLEXNEW-3554 - PublicAccess Phase 3 Adaptations (end)*/
+
+/* In multilingual page, make the search menu more compact and not waste too much space. */
+.row.well.multilingualToolsSpacing {
+  padding: 0px;
+}
+.multilingualActionLinks {
+  padding-left: 5px;
+}
+
+/* EURLEXNEW-3597 (start) */
+/* General */
+.toc-sidenav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.toc-sidebar .nav > li > a {
+    padding: 4px 10px;
+}
+.toc-sidenav  + .toc-sidenav {
+	border-top: 5px solid #CCC;
+}
+.toc-sidebar .nav > .active > a {
+    padding-left: 8px;
+    background-color: transparent;
+    border-left: 2px solid #AE0062;
+}
+.toc-sidebar .nav .nav {
+    display: none;
+}
+.toc-sidebar .nav > .active > ul {
+    display: block;
+}
+.toc-sidebar .nav .nav > li > a {
+    padding-left: 30px;
+}
+.toc-sidebar .nav .nav > .active > a {
+    padding-left: 10px;
+    margin-left: 18px;
+    border: none;
+    border-left: 2px solid #AE0062;
+}
+.toc-sidebar .nav li + li, .toc-sidebar .nav ul > li{
+	border-top: 1px solid #dee8ec;
+}
+.tocWrapper .toc-sidenav:first-of-type {
+	padding-top: 0;
+}
+/* Notice Page */
+#tocBtn, #tocHideBtn, #tocBtnMbl, #tocHideBtnMbl{
+	background: #e5f0f5;
+    font-size: 15px;
+    font-weight: 500;
+	color: #087faa;
+	border: 1px solid #cad7dc;
+}
+#tocBtn, #tocHideBtn {
+	position: absolute;
+	width: 100%;
+}
+#tocHideBtn {
+	border-bottom: 1px solid #cad7dc;
+}
+.affix-top #tocSidebar {
+	top: 98%;
+}
+.affix #tocSidebar {
+	margin-top: 10px;
+}
+#tocSidebar {
+	position: absolute;
+	width: inherit;
+}
+#tocSidebar .tocWrapper .toc-sidebar {
+    overflow-y: auto;
+    margin: 0;
+	position: absolute;
+    top: 33px;
+	border: 1px solid #cad7dc;
+	width: 100%;
+}
+#tocSidebar .tocWrapper .alert {
+	position: absolute;
+    width: 100%;
+    padding: 3px;
+	top: 35px;
+	z-index: 1000; /* 1 more than topBar */
+}
+/* Standalone HTML view */
+@media (min-width: 992px) {
+    #TOC {
+        margin-top: 5px;
+    }
+}
+#TOCSidebarSA {
+	border: 1px solid #cad7dc;
+}
+@media (max-width: 991px) {
+	#TOCSidebarSA {
+		position: fixed;
+		z-index: 2;
+		background-color: #FFF;
+		max-height: 30%;
+		overflow-y: scroll;
+		bottom: 0;
+	}
+}
+@media print {
+	#TOCSidebarSA {
+		display: none !important;
+	}
+}
+/* Mobile */
+#tocBtnMbl, #tocHideBtnMbl {
+	position: fixed;
+    bottom: 4px;
+	width: 250px;
+	padding: 5px 20px 5px 20px;
+	right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	z-index: 9999;
+	border-radius: 6px;
+	border: 1px solid #087faa;
+}
+aside#TOC-off-canvas {
+	height: auto;
+	max-height: 60%;
+}
+aside#TOC-off-canvas .toc-sidebar {
+	overflow: auto;
+}
+aside#TOC-off-canvas .topBar {
+	position: relative;
+	width: 100%;
+    top: 0;
+}
+/* EURLEXNEW-3725 */
+.toc-sidenav .topLink {
+	background: #EEE;
+}
+.toc-sidenav .topLink a{
+	visibility: hidden;
+}
+aside#TOC-off-canvas .toc-sidenav .topLink {
+	height: 0;
+}
+.toc-sidenav:not(:first-child) .topLink {
+	display: none;
+}
+.toc-sidenav:not(:first-child) .topLink + li {
+	border-top: none;
+}
+.topBar {
+    position: absolute;
+    top: 34px;
+    z-index: 999;
+    left: 0%;
+	background: #eee;
+	border: 1px solid #dee8ec;
+	padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 1px;
+	height: 29px;
+}
+#TOCSidebarSA .topBar {
+	top: 0;
+	left: auto;
+}
+
+#tocHideBtnStandalone {
+    margin-left: calc(100% - 70px);
+    margin-top: 5px;
+    position: fixed;
+    border: #cad7dc;
+    color: gray;
+    z-index: 1000;
+}
+@media (max-width: 991px) {
+	#TOCSidebarSA .topBar {
+		position: fixed;
+		top: auto;
+		border-top: 1px solid #cad7dc;
+	}
+}
+.topBar > a + a {
+    margin-left: 3px;
+    padding-left: 2px;
+    border-left: 1px solid #087faa;
+}
+.topBar > a {
+	padding: 0px 0px;
+    float: left;
+    background: #eeeeee;
+}
+.topBar a.active {
+	border-bottom: 2px solid #AE0062;
+}
+.innerNav li a {
+	font-weight: bold;
+}
+.innerNav li a .artSuffix {
+	font-weight: normal;
+}
+
+/* Expert Search Alert box will now break long invalid metadata overflowing strings in a new line. */
+.alert.alert-danger.fitContent {
+    overflow-wrap: break-word;
+}
+
+/* vertical gradient classes */
+.bottomGradient {
+	background-image: -webkit-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -moz-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -ms-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -o-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-size: 100% 5%;
+}
+.topGradient {
+	background-image: -webkit-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -moz-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -ms-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -o-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0));
+
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-size: 100% 5%;
+}
+.bottomTopGradient {
+	background-image: -webkit-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0)), -webkit-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -moz-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0)), -moz-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -ms-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0)), -ms-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: -o-linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0)), -o-linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+	background-image: linear-gradient(top, #c3c3c5, rgba(195, 195, 197, 0)), linear-gradient(bottom, #c3c3c5, rgba(195, 195, 197, 0));
+
+	background-position: 0 0, 0 100%;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-size: 100% 5%;
+}
+@media (max-width: 991px) {
+	/* Offset only for SA mobile TOC */
+	#TOCSidebarSA.topGradient {
+		background-position: 0% 29px;
+	}
+	#TOCSidebarSA.bottomTopGradient {
+		background-position: 0 29px, 0 100%;
+	}
+}
+/* EURLEXNEW-3597 (end) */
+
+/* EURLEXNEW-3693 - only supported by mobile safari */
+@supports (-webkit-overflow-scrolling: touch) {
+	select[readonly="readonly"], select:disabled {
+		background: #555555 !important;
+	}
+}
+
+/* EURLEXNEW-3662: E-Learning content - transfer to normal editorial pages - e-learning menu (start) */
+.eLearningMenuList, .eLearningMenuList ul {
+	list-style: none;
+	background: #EEE;
+	margin-bottom: 0;
+}
+.eLearningMenuList {
+	padding: 10px;
+	padding-right: 25px;
+}
+.eLearningMenuList  ul {
+	padding: 0px;
+}
+/* e-learning title link on menu */
+.eLearningLink a {
+    color: #8f8f8f;
+    font-size: 25px;
+}
+.eLearningLink {
+	padding-bottom: 15px;
+}
+/* e-learning list elements & links */
+.eLearningMenuList > li > ul > li {
+	border-top: 2px solid white;
+	padding: 3px;
+	position: relative;
+	z-index: 1;
+}
+.eLearningMenuList > li > ul > li > a {
+	color: #000;
+	display: block;
+}
+.eLearningMenuList > li > ul > li > a {
+	text-decoration: none;
+}
+.eLearningMenuList > li > ul > li:not(.Selected) > a:hover, .eLearningMenuList > li > ul > li:not(first-child).Selected > a {
+	font-weight: 500;
+}
+.eLearningMenuList > li > ul > li:first-child > a {
+	color: #FFF;
+	text-transform: uppercase;
+}
+.eLearningMenuList > li > ul > li:first-child.Selected > a {
+	font-weight: normal;
+}
+/* highlight when selected */
+.eLearningMenuList > li > ul > li:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+}
+.eLearningMenuList > li > ul > li.Selected:before{
+	width: 100%;
+}
+.eLearningMenuList > li > ul > li:first-child:before, .eLearningMenuList > li > ul > li:first-child.Selected:before{
+    opacity: 1;
+}
+.eLearningMenuList > li > ul > li:not(first-child).Selected:before {
+    opacity: 0.3;
+}
+/* menu section theme colors */
+.eLearningMenuList > li > .ELwelcome > li:before {
+	background: rgb(0, 92, 151);
+}
+.eLearningMenuList > li > .ELwhatIsElx > li:before {
+	background: rgb(17, 152, 205);
+}
+.eLearningMenuList > li > .ELmainFeatures > li:before {
+	background: rgb(88, 162, 173);
+}
+.eLearningMenuList > li > .ELOj > li:before {
+	background: rgb(255, 121, 0);
+}
+.eLearningMenuList > li > .ELSearch > li:before {
+	background: rgb(249, 78, 0);
+}
+.eLearningMenuList > li > .ELdocView > li:before {
+	background: rgb(0, 190, 153);
+}
+.eLearningMenuList > li > .ELmoreFeatures > li:before {
+	background: rgb(0, 83, 117);
+}
+/* right arrow when selected */
+.eLearningMenuList > li > ul > li.Selected:after {
+  	content: " ";
+    height: 0;
+    width: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    z-index: -1;
+}
+.eLearningMenuList > li > ul > li:first-child:after, .eLearningMenuList > li > ul > li:first-child.Selected:after,
+.eLearningMenuList > li > ul > li:not(first-child).Selected:after {
+    opacity: 1;
+}
+.eLearningMenuList > li > .ELwelcome > li.Selected:after {
+	border-left: 13px solid rgb(0, 92, 151);
+}
+.eLearningMenuList > li > .ELwhatIsElx > li.Selected:after {
+	border-left: 13px solid rgb(17, 152, 205);
+}
+.eLearningMenuList > li > .ELmainFeatures > li.Selected:after {
+	border-left: 13px solid rgb(88, 162, 173);
+}
+.eLearningMenuList > li > .ELOj > li.Selected:after {
+	border-left: 13px solid rgb(255, 121, 0);
+}
+.eLearningMenuList > li > .ELSearch > li.Selected:after {
+	border-left: 13px solid rgb(249, 78, 0);
+}
+.eLearningMenuList > li > .ELdocView > li.Selected:after {
+	border-left: 13px solid rgb(0, 190, 153);
+}
+.eLearningMenuList > li > .ELmoreFeatures > li.Selected:after {
+	border-left: 13px solid rgb(0, 83, 117);
+}
+/* bullets */
+.eLearningMenuList > li > ul > li > a > i.fa-circle {
+	position: absolute;
+    left: 101%;
+    color: #CCC;
+    top: 23%;
+    font-size: 10px;
+}
+.eLearningMenuList > li > .ELwelcome > li:first-child > a > i {
+	color: rgb(0, 92, 151);
+}
+.eLearningMenuList > li > .ELwhatIsElx > li:first-child > a > i {
+	color: rgb(17, 152, 205);
+}
+.eLearningMenuList > li > .ELmainFeatures > li:first-child > a > i {
+	color: rgb(88, 162, 173);
+}
+.eLearningMenuList > li > .ELOj > li:first-child > a > i {
+	color: rgb(255, 121, 0);
+}
+.eLearningMenuList > li > .ELSearch > li:first-child > a > i {
+	color: rgb(249, 78, 0);
+}
+.eLearningMenuList > li > .ELdocView > li:first-child > a > i {
+	color: rgb(0, 190, 153);
+}
+.eLearningMenuList > li > .ELmoreFeatures > li:first-child > a > i {
+	color: rgb(0, 83, 117);
+}
+/* EURLEXNEW-3662: E-Learning content - transfer to normal editorial pages - e-learning menu (end) */
+
+/* EURLEXNEW-3745: Consolidated texts (start) */
+.consLegLinks div, .consLegLinks p {
+	display: inline-block;
+}
+.consLegLinks a {
+	font-weight: bold;
+}
+.basicActIf {
+	margin-left: 5px;
+}
+.consLegLinks .accessCurrent {
+	float: right;
+}
+@media (max-width: 991px) {
+	.consLegLinks .accessCurrent {
+		display: inherit;
+		float: none;
+	}
+}
+/* ConsLeg Versions */
+#consLegVersions {
+	position: absolute;
+	width: inherit;
+	margin-top: 20px;
+}
+#consLegVersions button {
+	background: #e5f0f5;
+    font-size: 15px;
+    font-weight: 500;
+	color: #087faa;
+    border: 1px solid #cad7dc;
+	position: absolute;
+    width: 100%;
+}
+#consLegVersions .consLegNav {
+    border: 1px solid #cad7dc;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 320px;
+    top: 33px;
+    position: absolute;
+    width: 100%;
+}
+#consLegVersions .consLegNav ul {
+	list-style: none;
+	padding: 15px 0 0 0;
+}
+#consLegVersions .consLegNav .current {
+	font-weight: bold;
+}
+#consLegVersions .consLegNav .active {
+    outline: 3px solid #ffd617;
+    outline-offset: 1px;
+}
+.conslegFutureBullet {
+	margin-left: -12px;
+	vertical-align: inherit;
+}
+#consLinkWarn{
+    color: skyblue;
+    margin-right: -6%;
+}
+#consLegVersions .alert {
+	position: absolute;
+    width: 100%;
+    padding: 3px;
+	top: 35px;
+	z-index: 1000;
+}
+.textItalics {
+    font-style:italic;
+}
+/* EURLEXNEW-3745: Consolidated texts  (end) */
+
+/* EURLEXNEW-3749: Consolidated texts  TOC */
+.affix-top #consLegVersions {
+	top: 97%;
+}
+.toc-sidenav .nav .nest-2 > li > a {
+	padding-left: 50px;
+}
+.toc-sidenav .nav .nest-2 > .active > a {
+	margin-left: 38px;
+}
+.affix-top #tocSidebar ~ #consLegVersions {
+	margin-top: 50px;
+}
+.affix #tocSidebar ~ #consLegVersions {
+	margin-top: 50px;
+}
+/* EURLEXNEW-3749: Consolidated texts  TOC (end) */
+
+/* EURLEXNEW-3756: Download statistics (start) */
+#statisticsExport, #statisticsExportNoJs	{float: right;}
+#statisticsExport .btn						{font-size:14px;}
+#statisticsExport .btn .fa					{margin-right:8px;}
+#statisticsExport .btn .fa.fa-angle-down		{margin-right:0; margin-left:5px;}
+#statisticsExport .dropdown-menu				{z-index: 1001;}
+/* EURLEXNEW-3756: Download statistics (end) */
+/* EURLEXNEW-3791: Advanced search - Text search (start) */
+.textOperatorSelect {
+	margin-bottom: 5px;
+}
+.textOperatorSelect .radio  label {
+	color: #333333;
+    font-weight: 500;
+	background: #EEEEEE;
+    border: 5px solid #EEEEEE;
+	width: 70px;
+}
+.textOperatorSelect .col-sm-6 > label {
+	margin-top: 5px;
+}
+/* EURLEXNEW-3791: Advanced search - Text search (end) */
+/* EURLEXNEW-3787: Advanced search - add a language selector (start) */
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid grey;
+	border-radius: 0px;
+}
+.select2-results__options {
+	border: 1px solid black;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: none;
+    outline: 3px solid #ffd617;
+}
+/* EURLEXNEW-3787: Advanced search - add a language selector (end) */
+
+/* EURLEXNEW-3916: IMPROVING MACHINE TRANSLATION TOOL IN NTMs (start) */
+#translatedTitle {
+	border-color: #EEE;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0px 0px 10px 0px;
+    padding: 5px 10px 5px 10px;
+}
+
+#translationPlaceholder {
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+}
+
+#translationPlaceholderWrapper {
+	border-color: #EEE;
+    border-style: solid;
+    border-width: 2px 3px 10px 0px;
+}
+/* EURLEXNEW-3916: IMPROVING MACHINE TRANSLATION TOOL IN NTMs (end) */
+
+/*Fix CCK banner so as to be aligned with the rest of the site*/
+/*Fix CCK banner to be on top of the stack order from 100 to 1050. Needs to be above PubFormat:nth-child (lang table icons) which is 1010*/
+/*EURLEXNEW-4468: CCK banner should have full width of the screen*/
+.cck-container {
+	margin: auto;
+	max-width:none !important;
+  border: none !important;
+  z-index: 1050 !important;
+    width: 100% !important;
+}
+
+/* ECB recently published (start) */
+ul#ecb_recently_published {
+	margin-left:0px;
+	padding:0;
+	list-style:none;
+}
+ul#ecb_recently_published > li {
+	padding-left: 16px;
+	position:relative;
+}
+ul#ecb_recently_published > li:not(:last-child) {
+	padding-bottom: 1.4em;
+}
+ul#ecb_recently_published.ebsRecent > li:not(:last-child) {
+	padding-bottom: 1.1em;
+}
+ul#ecb_recently_published > li + li	{
+	margin:0px;
+}
+ul#ecb_recently_published > li:before {
+	content:"";
+	display:block;
+	position:absolute;
+	top:6px;
+	left:3px;
+	width:5px;
+	height:5px;
+	background:#097eaa;
+	border-radius: 50%
+}
+.multiline-ellipsis {
+  /* required, as-is */
+  overflow: hidden;
+  position: relative;
+  text-align: justify;
+
+  /* required, adjustable */
+  line-height: 1.4em; /* should approximate styleguide rule or as desired */
+  max-height: 4.2em;  /* max-height = line-height * max number of lines */
+  margin-right: -1em;
+  padding-right: 2em;
+}
+/* Adds the "..." */
+.multiline-ellipsis:before {
+  /* required, as-is */
+  content: '...';
+  position: absolute;
+
+  /* required, adjustable */
+  /* position is set to right bottom corner of block */
+  right: 15px;
+  bottom: 1px;
+}
+/* Hides the "..." if text is less than max number of lines */
+.multiline-ellipsis:after {
+  /* required, as-is */
+  content: '';
+  position: absolute;
+
+  /* required, adjustable */
+  /* position is set to right bottom corner of text */
+  right: 15px;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+  padding-right: 2em; /* should match same rule in '.multiline-ellipsis' rule-set */
+}
+/* ECB recently published (end) */
+
+/* ECB statistics (start)*/
+.statGraph {
+	padding-bottom: 50px;
+}
+h2.statGraphHeader {
+	 background:#31708f;
+	 font-size: 14px;
+	 color:white;
+	 text-align:center;
+	 padding:10px;
+	 margin-top: 0px;
+	 margin-bottom: 5px;
+}
+.statGraphSubtitle, .statGraphLegend {
+	font-size: 13px;
+	height: 50px;
+}
+.statGraphLegend ul {
+	list-style: none;
+}
+.statGraphLegend li span {
+	display: inline-block;
+	height: 10px;
+	margin-right: 10px;
+	width: 10px;
+}
+.statGraph p {
+	font-size: 10px;
+	font-weight: bold;
+}
+.statGraph .table-responsive{
+	border-style: none;
+}
+#ecbStatisticsTable thead th {
+	background-color:#FFF;
+}
+#ecbStatisticsTable thead td {
+	color: white;
+}
+#ecbStatisticsTable tbody th, #ecbStatisticsTable td {
+	vertical-align:middle;
+	text-align:center;
+	border-collapse: collapse;
+    border: 1px solid #DDD;
+    font-size: 10px;
+    font-weight: normal;
+}
+#ecbStatisticsTable th, #ecbStatisticsTable .totals td {
+	background-color: rgba(245,245,245,1);
+}
+/* ECB statistics (end)*/
+/* ECB statistics widget */
+#statisticsCarousel img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+}
+#statisticsCarousel .carousel-indicators li {
+	border: 1px solid #868686 ;
+    border-radius: 100%;
+    padding: 0px !important;
+}
+#statisticsCarousel .carousel-indicators li.active {
+	background-color: #868686 ;
+}
+#statisticsCarousel .carousel-indicators {
+	height: 18px;
+    top: 10px;
+/*    width: 25%;
+    margin-left: -13%;*/
+
+}
+#statisticsCarousel .carousel-inner {
+	padding: 0 10px 0 10px;
+	cursor: pointer;
+}
+.carousel-multi .carousel-inner .cloneditem{
+    display: block;
+}
+/* Bootstrap 3 defaults' overrides */
+.carousel-control.left,
+.carousel-control.right,
+.carousel-control.right-arrow {
+	width: 30px;
+    background: none !important;
+    filter: progid:none !important;
+}
+#statisticsCarousel .carousel-control .icon-prev,
+#statisticsCarousel .carousel-control .icon-next {
+    color: black;
+}
+#statisticsCarousel .carousel-control .icon-prev {
+	margin-left: -20px;
+}
+#statisticsCarousel .carousel-control .icon-next {
+	margin-right: -20px;
+}
+
+#homepageCarousel .carousel-indicators {
+    bottom: -10px;
+}
+#homepageCarousel .carousel-indicators li {
+	background-color: #ffffff;
+	border-color: #868686;
+	margin : 4px;
+}
+#homepageCarousel .carousel-indicators li.active {
+	background-color: #868686;
+}
+#homepageCarousel .carousel-control {
+	opacity: 1;
+	visibility: hidden;
+	bottom: 7%;
+	height: 115px;
+}
+@media screen and (max-width: 767px) {
+    #homepageCarousel .carousel-control {
+        visibility: visible;
+        height: 100%;
+    }
+}
+#homepageCarousel:hover .carousel-control{
+	visibility: visible;
+}
+
+.carouselPlayButton{
+	position: relative;
+	left: 39%;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.carouselArrow{
+	top: 20%;
+	position: relative;
+}
+
+/* .experimental-feature-tag styles regarding the experimental feature button+checkbox and the floating box*/
+.experimental-feature-tag .experimental-feature-wrapper {
+	/* background-color: #004494; */
+}
+.experimental-feature-tag .experimental-feature-wrapper, .experimental-feature-tag .exp-feature-float-box {
+	font-size:13px;
+}
+.experimental-feature-tag .exp-feature-float-box label {
+	margin-bottom:0px;
+}
+.experimental-feature-tag .experimental-feature-btn {
+	background-color: #1971A1;
+	border-color: #1971A1;
+}
+.experimental-feature-tag .experimental-feature-div-position {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #1971A1;
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .experimental-feature-div-position {
+        padding-left: 10px;
+    }
+}
+
+.experimental-feature-tag .experimental-feature-wrapper input[type="checkbox"].experimental-feature-checkbox {
+	margin: 4px 7px 2px 0px;
+}
+.experimental-feature-tag .experimental-feature-wrapper {
+	padding: 0px;
+	max-width: 192px;
+	float: right;
+}
+.experimental-feature-tag .experimental-feature-wrapper .GroupCheckLabel {
+	background:#004494;
+}
+.experimental-feature-tag .homepageMessage.experimental-feature-disclaimer,
+	.experimental-feature-tag .experimental-feature-list > fieldset > ul {
+	padding:0px;
+}
+.experimental-feature-tag .experimental-feature-btn .fa.fa-flask {
+	font-size:17px;
+}
+.experimental-feature-tag .exp-feature-float-box {
+	padding: 10px;
+	min-width: 530px;
+	top: 36px;
+	left: -385px;
+	margin: auto;
+	border-radius: 7px;
+	border-color: #004494;
+}
+.experimental-feature-tag #exp-feature-btn-apply {
+	margin-top: 10px;
+	float: right;
+	background-color: #004494;
+}
+.experimental-feature-tag .radius5p {
+	border-radius: 5px;
+}
+.experimental-feature-tag #exp-feature-btn:hover, .experimental-feature-tag  #exp-feature-btn-apply:hover {
+	background-color: #002F67;
+}
+.experimental-feature-tag #exp-feature-btn:active, .experimental-feature-tag  #exp-feature-btn-apply:active {
+	background-color: #011A38;
+}
+.experimental-feature-tag .exp-feature-alert-danger {
+	padding:10px;
+	margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    border-color: #ebccd1;
+}
+.experimental-feature-tag .browseTree.browseTree-no-pad-left {
+	padding-left:0px;
+}
+#experimental-feature-close:focus, #experimental-feature-close:hover {
+	color:#c30;
+}
+#experimental-feature-close:focus {
+	outline: 3px solid #ffd617;
+}
+#experimental-feature-close {
+	color: #444;
+    opacity: .67;
+    font-weight: normal;
+    font-size: 20px;
+}
+@media only screen and (max-width: 767px){
+	.experimental-feature-tag .experimental-feature-wrapper {
+		width:100px;
+		top:6px;
+	}
+	.experimental-feature-tag .experimental-feature-btn {
+		display: flex;
+		align-items: center;
+	}
+	.experimental-feature-tag .exp-feature-float-box {
+		left:-455px;
+	}
+	.experimental-feature-tag .experimental-feature-div-position {
+        position:relative;
+    }
+
+	.experimental-feature-btn span {padding-right: 4px;}
+}
+@media (min-width: 767px) {
+    .experimental-feature-tag .experimental-feature-div-position + div {
+        height: 30px;
+}
+}
+@media only screen and (max-width: 585px) {
+	.experimental-feature-tag .exp-feature-float-box {
+		min-width: 320px;
+		padding:10px;
+		left: -245px;
+	}
+	.experimental-feature-tag .exp-feature-float-box hr {
+		margin:10px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.experimental-feature-tag .exp-feature-float-box {
+		top:38px;
+	}
+	.experimental-feature-tag .exp-feature-float-box hr {
+		margin:5px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.experimental-feature-tag .exp-feature-float-box {
+		min-width: 280px;
+		padding:5px;
+		left: -197px;
+	}
+	.experimental-feature-tag #exp-feature-btn-apply {
+		margin-top:0px;
+	}
+	.experimental-feature-tag .text-center {
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+}
+
+/* Common CAPTCHA rules */
+div.wt-captcha__inner {
+	width: auto;
+	border-radius: 3px;
+}
+div.wt-captcha {
+	font-family: inherit;
+	font-size: 12px;
+}
+
+
+
+/* 4202 custom impl */
+#custom_timeline {
+	height: 300px;
+}
+#custom_timeline ul {
+	width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    top: 30px;
+    position: absolute;
+}
+#custom_timeline > ul > li.custom-timeline-event.removed {
+	display:none;
+}
+#custom_timeline > ul > li.custom-timeline-event {
+	display: inline-block;
+    position: absolute;
+    top: 300px;
+}
+#custom_timeline > ul > li  span, #custom_timeline .tlSummary {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	position: relative;
+	vertical-align: middle;
+	z-index: 99;
+}
+#custom_timeline .tlSummary span:after {
+	content: url(../images/consleg_icons.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#custom_timeline > ul > li  label {
+	position: absolute;
+	top: 100%;
+	left: -20px;
+	color: #087faa;
+}
+#custom_timeline > ul > li.today  label {
+	position: absolute;
+	top: -50%;
+	left: 0px;
+}
+#custom_timeline > ul > li.basicAct  label, #custom_timeline > ul > li.removed  label {
+	display:none;
+}
+#custom_timeline > ul > li  span:after {
+    content: url(../images/consleg_icons.png);
+    position: absolute;
+    left: 0;
+}
+#custom_timeline > ul > li.basicAct {
+    left: 10px;
+}
+#custom_timeline > ul > li.basicAct  span:after {
+	top: -53px;
+}
+#custom_timeline > ul span.break-arrow:after {
+	position: relative;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-right: 0px solid white;
+    border-top: 0px solid white;
+    transform: rotate(45deg);
+    margin-left: 46px;
+    margin-bottom: 6px;
+    border-width: 4px;
+}
+#custom_timeline > ul > li.futureDate {
+    left: 100px;
+}
+#custom_timeline > ul > li.futureDate  span:after {
+	top: -378px;
+}
+#custom_timeline > ul > li.normal  span:after {
+	top: -209px;
+}
+#custom_timeline > ul > li.dateSelected  span:after {
+	top: -261px;
+}
+#custom_timeline > ul > li.dateCurrent  span:after {
+	top: -320px;
+}
+#custom_timeline > ul > li.summary {
+	margin-top:-60px;
+	margin-left:50px;
+}
+#custom_timeline > ul > li.today  span:after {
+	content: " ";
+	top: -8px;
+    /* border-radius: 50%; */
+    width: 8px;
+    background: #087faa;
+    height: 35px;
+    left: 50%;
+    border: 3px solid white;
+    position: absolute;
+}
+#custom_timeline > ul > li.dateSelected  span {
+	height: 45px;
+}
+#custom_timeline > ul > li .line {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    content: "";
+    display: block;
+	top: -30px;
+    z-index: 1;
+    height: 10px;
+	background-color: #087faa;
+    position: relative;
+    margin-left: 5px;
+    z-index: 1;
+}
+#custom_timeline > ul > li .breakline {
+	background: repeating-linear-gradient(
+	90deg, #aaa , #087faa00 5px, #0895aa00 5px, #aaa 0px);
+}
+#custom_timeline > ul > li .selLine {
+	top: -34px;
+	outline: 2px solid #ffd617;
+	outline-offset:-5px;
+}
+
+
+
+/* EF CAPTCHA rules */
+.ef-captcha {
+	padding-top: 28px;
+}
+/* HelpDesk CAPTCHA rules */
+div#helpDeskCaptcha .wt-captcha{
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+div#helpDeskCaptcha .wt-captcha__inner{
+	background-color: #ffffff;
+}
+div#helpDeskSubmitBtn{
+	float: right;
+}
+/* EURLEXNEW-4193 */
+.SearchResult a.not-linkable-portion {
+    cursor:default;
+	text-decoration:none;
+	pointer-events: none;
+	font-size:13px;
+	color: #444444;
+}
+/* EURLEXNEW-3928 */
+.fa-check-circle.selected-facet {
+	color: #5cb85c;
+}
+/* EURLEXNEW-4134 */
+.MTDocTranslate {
+	margin-top: 15px;
+}
+.MTDocTranslate .MT_panel .panel-body {
+	background: #FFF;
+}
+.ECB-corner-description {
+	padding:10px;
+}
+/* EURLEXNEW-4285 */
+.EBS-description {
+    padding:10px;
+}
+
+/*EURLEXNEW-4283 */
+.Thematic-groups {
+    padding-top:30px;
+}
+
+
+.hide-border {
+    border: none;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+/* EURLEXNEW-4374 */
+/* results, notices */
+.panel .panel-heading a                     {color: black; text-decoration : none;}
+.panel .panel-heading a:hover               {color: black; text-decoration : underline;}
+.panel .panel-heading button                     {border: none; text-align: left; color: black; text-decoration : none; background-color: transparent; padding: 0 0 0 0}
+.panel .panel-heading button:hover               {color: black; text-decoration : underline;}
+.panel .panel-heading a:before, .panel .panel-heading button:before				{/*content:"\f107"; */font-family:FontAwesome; font-size:14px; font-weight:normal; position:relative; display: inline-block; width:15px; text-align:center; transition:all .1s ease-out; transform: rotate(0deg);}
+.panel .panel-heading a.collapsed:before	{transform: rotate(-90deg);}
+.panel .panel-heading button.collapsed:before	{transform: rotate(-90deg);}
+.form-control.TextBorders					{border: 1px solid gray; box-shadow:none;}
+.outline-fix {
+    padding: 5px 10px 8px 5px;
+    margin-left: -10px;
+}
+
+.indent {
+    margin-left: 15px;
+}
+
+.section-level-1{
+    margin-left: 0px;
+}
+
+.section-level-2{
+    margin-left: 15px;
+}
+
+.section-level-3{
+    margin-left: 30px;
+}
+
+.section-level-4{
+    margin-left: 45px;
+}
+
+button[name="searchNav"],
+a[name="searchNav"] {
+    color: white;
+    margin-bottom: 10px;
+    background-color: #009ac9;
+}
+
+
+
+button[name="searchNav"]:hover,
+a[name="searchNav"]:hover {
+    background-color: #024ea1;
+}
+
+button[name="searchNav"].has-arrow:before,
+a[name="searchNav"].has-arrow:before {
+        /*content: "\f105";*/
+        position: absolute;
+        left: 10px;
+        font-family: FontAwesome;
+        font-size: 14px;
+        color:white;
+        transition: all .1s ease-out;
+}
+
+button[name="emptySearchNav"],
+a[name="emptySearchNav"] {
+    color: white;
+    margin-bottom: 10px;
+    background-color: #999999;
+}
+
+a[name="emptySearchNav"]:hover {
+    background-color: #999999;
+}
+
+button[name="searchNav"],
+button[name="emptySearchNav"] {
+    width: 100%;
+    text-align: left;
+}
+
+button[name="searchNav"]:focus,
+button[name="emptySearchNav"]:focus
+{outline:3px solid #ffd617; outline-offset:2px;}
+
+
+button[name="emptySearchNav"].has-arrow:before,
+a[name="emptySearchNav"].has-arrow:before {
+        /*content: "\f105";*/
+        position: absolute;
+        left: 10px;
+        font-family: FontAwesome;
+        font-size: 14px;
+        color:white;
+        transition: all .1s ease-out;
+}
+
+.heading-margins{
+    margin-top: 15px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.disabled-link {
+    pointer-events: none;
+}
+
+.EcliLink:after {
+    /*content: "\f08e";*/
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    margin-left: 5px;
+    top: -5px;
+    color: #666;
+}
+
+.eJusticePortal {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#thematic-list{
+    margin-top:40px;
+}
+
+#thematic-list > li {
+    margin-top:10px;
+}
+
+#thematic-list > li::marker {
+    color: #868686;
+}
+
+#thematic-list > li > span:nth-child(1){
+    font-weight: 500;
+}
+
+#thematic-list > li > span:not(:first-child) > div {
+    margin-top: 2px;
+    margin-left:15px;
+}
+
+#footnote_EPH {
+    font-weight: bold;
+}
+
+.align-text-center {
+    text-align: center;
+}
+
+.align-text-center {
+    text-align: center;
+}
+
+.align-text-center {
+    text-align: center;
+}
+
+.daily-view-row-spacing {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    /*EURLEXNEW-4660 Fix alignment right*/
+    margin-right: 15px;
+}
+
+/*EURLEXNEW-4565*/
+.sessionRowContainer{
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.sessionRowContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sessionColumn{
+    float: left;
+    padding: 10px;
+}
+
+.sessionColumnTitle{
+   width:70%;
+}
+
+.sessionColumnDate{
+    width:30%;
+}
+
+.sessionLabelDate{
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+}
+
+/* EURLEXNEW-4454: Relocate 'Search criteria' widget at the top of the 'Search results' page, using CSS only. */
+.col-md-9 .EurlexContent.RelocateFilteringWidget {
+    display: flex;
+    flex-direction: column;
+}
+#EurlexContent{
+	display: flex;
+	flex-direction: column;
+}
+
+.expand-label     { cursor: pointer; }
+
+.searchNavButton {
+    color: white !important;
+    margin-bottom: 10px;
+    font-weight: 500;
+    background-color: #009ac9;
+}
+
+.searchNavButton:hover {
+    background-color: #024ea1 !important;
+}
+
+/* EURLEXNEW-4374 colored arrows at Browse Official Journal */
+.MenuList.CompactMenuList.NoAccordionTreeMenu li a[name="searchNav"].has-arrow i,
+.MenuList.CompactMenuList.NoAccordionTreeMenu li a[name="emptySearchNav"].has-arrow i {
+    color:#FFFFFF;
+}
+/* EURLEXNEW-4374 colored arrows at developmentLatest and commission-proposals-statistics */
+.MenuList li:not(.Selected) a.has-arrow i,
+nav.Sidebar div.EurlexEditorial .TreeMenu li:not(.Selected) a.has-arrow i {
+	color: #0c7ea9;
+}
+
+/* rules  related with case-file page */
+.caseSteps{
+	background: #097eaa;
+	padding: 0;
+}
+.caseSteps .col-sm-3{
+	padding: 2px 2px 2px 0;
+}
+.caseSteps .col-sm-9{
+	padding: 0;
+}
+.caseSteps .col-sm-3{
+	padding: 2px 2px 2px 0;
+}
+.caseSteps .fa-2x {
+	margin: -3px;
+}
+.caseSteps .col-sm-3 .input-group-addon{
+	width: 0;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 3px;
+}
+.caseSteps .col-sm-3 .input-group-btn a{
+	color: #444;
+}
+.caseSteps h2{
+	color: #FFF;
+	padding: 8px 0 5px 10px;
+	margin: 0;
+	font-size: 16px;
+}
+
+.encrypted-display{
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-wrap: anywhere;
+}
+
+/*EURLEXNEW-4552 toc with eli subdivisions*/
+
+.toc-eli-subdivisions li{
+  border-top: 1px solid #dee8ec;
+}
+
+.toc-eli-subdivisions li a.active {
+    background-color: transparent;
+    border-left: 2px solid #AE0062;
+}
+
+.toc-eli-subdivisions .glyphicon {
+    margin-right: 5px;
+    font-size: 12px;
+    color: #0c7ea9;
+}
+
+.toc-eli-subdivisions li ul{
+  padding-left: 15px;
+}
+
+.toc-eli-label {
+  font-weight:200;
+}
+
+/* Generic TABLE-based Content Tooltips */
+
+.TableContentTooltip {
+    position: relative;
+}
+
+.TableContentTooltip > .TableContentTooltipTrigger {
+    display: inline-block;
+}
+
+.TableContentTooltip > .TableContentTooltipTrigger > .TableContentTooltipDefaultTrigger {
+    color: #087faa;
+}
+
+.TableContentTooltip > .TableContentTooltipContent {
+    /* Prevent JQuery from animating some properties when toggling the tooltip's visibility. */
+    width: auto !important;
+    height: auto !important;
+    margin: 0px !important;
+
+    /* Include margins and shadow offset of the tooltip for positioning purposes. */
+    padding: 4px 18px 18px 4px !important;
+
+    z-index: 1070; /* Default Bootstrap 'Z-INDEX' CSS property value for tooltips. */
+}
+
+.TableContentTooltip > .TableContentTooltipContent > .panel {
+    min-width: 100px;
+    max-width: 300px; /* Make sure the tooltip fits in smaller screen sizes. */
+    font-size: 0.75em;
+    border-color: #aaa;
+    margin: 0px;
+    box-shadow: 8px 8px 10px 2px #b8b8b8;
+}
+
+.TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body > .container-fluid:empty {
+    /* Make the tooltip a bit pretty if it doesn't have any content. */
+    min-width: 100px;
+    min-height: 25px;
+}
+
+.TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body .row:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body .row > .col {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body .row > .col:first-child {
+    font-weight: bold;
+    color: #0c7ea9;
+    background-color: #e2e2e2;
+}
+
+@media (min-width: 768px) {
+    .TableContentTooltip > .TableContentTooltipContent > .panel {
+        /* Make the tooltip a bit pretty for bigger screen sizes. */
+        min-width: 265px;
+        max-width: 430px;
+    }
+
+    .TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body .row,
+    .TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body .row > .col {
+        display: flex;
+        display: -webkit-flex;
+    }
+
+    .TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body .row {
+        align-items: stretch;
+    }
+
+    .TableContentTooltip > .TableContentTooltipContent > .panel > .panel-body .row > .col {
+        align-items: center;
+    }
+}
+
+/*
+ *  OPEC-840: Fix misalignment in 'Access to the Official Journal'
+ *  search form, 'By OJ reference' column.
+ */
+
+#daily-oj-search > .row:first-child > .radio.GroupRadioMargin {
+    margin-left: -6px;
+}
+
+.col.OJAccessReferenceSearchColumn > .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#daily-oj-search > .row:first-child,
+.col.OJAccessReferenceSearchColumn > .row:last-child {
+    padding-left: 6px;
+}
+
+@media (min-width: 768px) {
+    .col.OJAccessReferenceSearchColumn > .row:last-child {
+        /* Apply custom alignment only for bigger screen sizes. */
+        display: flex;
+        display: -webkit-flex;
+        align-items: flex-end;
+    }
+}
+
+/*
+ *  EURLEXNEW-4623: Merge old case law content page (directory tree) with
+ *  new case law content page.
+ */
+
+.OldCaseLawTreeWidget {
+    margin-left: 3px;
+    margin-top: 35px;
+}
+
+.OldCaseLawTreeWidget > .normalTreeLink.ViewMoreInfo {
+    color: #444;
+}
+
+.OldCaseLawTreeWidget > .normalTreeLink.ViewMoreInfo > i.fa {
+    /* Fix the appearance of the tree link icon. ('plus/minus' icon) */
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+.OldCaseLawTreeWidget > #OldCaseLawTreeWidgetPanel {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
+
+/*
+ *  EURLEXNEW-4474:  3.2.5 Other Linked Documents
+ */
+.EurlexContent .GridDL div[name^="caseSummary_"] > dt {
+	background: #8795A2;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	width: 90%;
+	text-align: left;
+}
+
+a[class="linked_docs_text"]{
+	color: #fff;
+}
+
+.btn.btn-link.btnAlignment {
+	display: inline;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.row.rowCasePaddingBottom {
+	padding-bottom: 10px;
+	display:flex;
+}
+
+.linked_docs_background {
+	padding-left: 15px;
+}
+.fa.fa-calendar-minus-o.calendarInline {
+	padding-right: 10px;
+	display: inline;
+}
+/*
+ *  OPEC-863:  Fix misalignment of Search Button in 'eu-case-law, eu-case-law/reports + pre-acts'
+ */
+.col-sm-1.caseLawSearchBtnAlignment {
+	padding-left: 0px;
+	margin-top: 23px;
+}
+.preActsSearchBtnAlignment {
+	margin-top: 23px;
+}
+
+/* IENI Start */
+.IENI-widget {
+	padding: 5px;
+}
+
+.IENI-widget-grey {
+	background: #eee;
+}
+
+.IENI-widget .MenuBlock {
+	padding-top: 8px;
+}
+
+/* Applied only on the div directly in form row  and not in any div in form.*/
+.IENI-widget-form .row > div {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.IENI-widget h1, .IENI-widget h2  {
+	padding-bottom: 10px;
+	margin: 0 0 10px 0;
+	font-weight: 500;
+	font-size: 16px;
+	color: #0c7ea9;
+	border-bottom: 1px solid #cad7dc;
+}
+
+.IENI-searchbox-button {
+	padding-left: 5px !important;
+	margin-top: -2px  !important;
+}
+
+/* IENI - Navigation tree */
+/* Expanded */
+.Ieni-widget .ExpertSearchValueTree a.has-arrow>i::before {
+	font-family:FontAwesome; font-size:14px; font-weight:normal; position:absolute; display:block; width:15px; transition:all .1s ease-out;
+	text-align:center; left:6px; top:-1px; color:#097eaa; line-height:20px !important;
+}
+/* Collapsed */
+.Ieni-widget .ExpertSearchValueTree a.has-arrow.expandNode>i::before {
+	transform: rotate(-180deg);
+	font-family:FontAwesome;  font-size:14px;  font-weight:normal; position:absolute; display:block; width:15px; text-align:center; left:6px; top:-1px; color:#097eaa; }
+
+.Ieni-widget .MenuBlock {
+	padding-left: 8px ;
+	padding-top: 9px;
+}
+
+.Ieni-widget .ExpertSearchValueTree li label {
+	display: block;
+}
+
+.Ieni-widget .ExpertSearchValueTree li {
+	margin-left: 20px;
+	/*margin-top: 0px;*/
+	padding: 2px;
+	position: relative;
+}
+
+.Ieni-widget input[type='checkbox'] {
+	display: none;
+}
+
+.Ieni-widget h1, .Ieni-widget h2 {
+	padding-bottom: 20px;
+	margin:  0 10px 0;
+	font-size: 22px;
+	font-weight: 400;
+	color: #0c7ea9;
+	margin-left: 2px;
+}
+
+.Ieni-widget h2.SearchBox {
+	font-size: 16px;
+}
+
+.Ieni-widget {
+	padding: 5px;
+}
+
+#IeniMenuBlock1 .ExpertSearchValueTree li.leaf i.fa-circle {
+	font-family: FontAwesome;
+	width: 20px;
+	color: #CCC;
+	font-size: 6px;
+	position: absolute;
+	left: -25px;
+	top: 5px;
+}
+
+.Ieni-labelValue {
+	width: 90%;
+	position: relative;
+	text-align: left;
+	font-weight: bold;
+	color: #444;
+	display: inline-block;
+	text-transform: none;
+	font-size: 14px;
+}
+
+.ExpertSearchValueTree a.Ieni-treeLink {
+	width: 90%;
+	position: relative;
+	text-align: left;
+	font-weight: bold;
+	color: #444;
+	display: inline-block;
+	cursor: pointer;
+	padding: 0 0px 0 9px;
+	text-transform: none;
+	font-size: 14px;
+}
+.ExpertSearchValueTree a.Ieni-treeLink:hover, .ExpertSearchValueTree a.Ieni-treeLink:focus {
+	color: #444;
+	text-decoration: underline;
+}
+
+span.Ieni-labelValue {
+	margin-left: -6px;
+}
+
+.Ieni-labelValue > i {
+	padding-left: 6px;
+}
+
+#IeniMenuBlock1.MenuBlock ,#IeniMenuBlock2.MenuBlock{
+	border: none !important;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+.IeniSearch {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #D6E4E5;
+	border-top: 1px solid #D6E4E5;
+	border-width: 1px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#IeniMenuBlock1 .ExpertSearchValueTree li label,
+#IeniMenuBlock1 .ExpertSearchValueTree li label .Ieni-labelValue {
+	width: fit-content;
+}
+
+#IeniMenuBlock1 .ExpertSearchValueTree li.leaf label a {
+	margin-left: 15px;
+}
+/* Changed Navigation Tree from Unordered to Ordered */
+.Ieni-widget .ExpertSearchValueTree ol > li[class="leaf"] > label{
+	padding-left: 35px;
+}
+
+.Ieni-widget ol[id="tree"] {
+	counter-reset: inherit;
+}
+
+.Ieni-widget ol[id="tree"] > li::before {
+	display: none;
+}
+
+/* IENI Navigation Tree cosmetic adjustment for focus rectangle */
+.IeniFocusRectangle {
+	padding-left: 25px;
+}
+/* IENI End */
+
+/* EURLEXNEW-4646: SPARQL-based Automatic Link to Recent OJs. */
+.RecentOJDocumentsLink > .RecentOJDocumentsLinkSpacer {
+    /*
+     *  Allow the background image of the 'Official Journal' widget
+     *  to be clearly visible.
+     */
+    height: 80px;
+}
+
+@media (max-width: 991px) {
+    .RecentOJDocumentsLink {
+        /*
+         *  Move the 'Recent OJ Documents' link a bit more away from
+         *  the rest of the OJ links for smaller screen sizes, to
+         *  match the display style used for bigger screen sizes.
+         */
+        margin-top: 30px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    /*
+     *  Squeeze the contents of the 'Official Journal' widget a bit
+     *  more, for its content to better fit in smaller screen sizes.
+     */
+
+    .HomeOJ > #ojBoxBottom {
+        margin-top: 5px;
+		padding-right: 12px;
+    }
+
+    .RecentOJDocumentsLink > .RecentOJDocumentsLinkSpacer {
+        display: none;
+    }
+}
+@media (max-width: 443px) {
+
+    .HomeOJ > #ojBoxBottom {
+        margin-top: 5px;
+		padding-right: 120px;
+    }
+
+    .RecentOJDocumentsLink > .RecentOJDocumentsLinkSpacer {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .RecentOJDocumentsLink:not(.HomeOJError) {
+        /*
+         *  Move the 'Recent OJ Documents' link near the bottom of
+         *  the 'Official Journal' widget for bigger screen sizes.
+         *  Do not apply if the OJ widget displays an error message.
+         */
+        position: relative;
+        bottom: 0px;
+    }
+}
+@media (max-width: 940px) {
+	.RecentOJDocumentsLink:not(.HomeOJError) {
+
+		position: relative;
+		bottom: 0px;
+		padding-right:125px;
+	}
+}
+@media (max-width: 610px) {
+	.RecentOJDocumentsLink:not(.HomeOJError) {
+
+		position: relative;
+		bottom: 0px;
+		padding-right:12px;
+	}
+	#ojBoxBottom > .HomeOJMore{
+		word-break: break-word;
+
+	}
+}
+.RecentOJDocumentsTable > table.table > thead th:first-child {
+    /* Make sure the first column of the table is not too narrow. */
+    width: 175px;
+}
+/* EURLEXNEW-4646 End */
+
+@media (min-width: 992px){
+    .DailyDocWidth {
+       width: 56.3%;
+    }
+}
+
+@media (max-width: 991px){
+    .DailyDocWidth {
+       width: 98%;
+    }
+}
+
+
+.removePadding {
+    padding: 0;
+}
+
+.ecbCarouselPlayPause {
+    left : 0%;
+    float: right;
+}
+
+/* EURLEXNEW-4434 */
+.EurlexEditorial ul > li > ul[class="dispCont"] > li {
+	display: contents;
+}
+.EurlexEditorial ul > li > ul[class="dispCont"] {
+	margin-left: 0px;
+}
+
+/* EURLEXNEW-4435 - Accessibility - wrong elements inside <ul> or <ol> - P2 */
+.EurlexContent .EurlexEditorial .NoMarker li:before {
+    content: none;
+}
+
+.EurlexContent .EurlexEditorial .NoLeftPadding li {
+    padding-left: 0px;
+}
+
+.EurlexContent .EurlexEditorial li.NoMarkerLi:before {
+    content: none;
+}
+
+.EurlexContent .EurlexEditorial li.NoLeftPaddingLi {
+    padding-left: 0px;
+}
+
+.EurlexContent .EurlexEditorial ul.LiInsideUlInsideLiSameMarkerAsLiInsideUl{
+    margin-top: 0px;
+}
+
+.EurlexContent .EurlexEditorial ul.LiInsideUlInsideLiSameMarkerAsLiInsideUl li {
+    padding:0 0 0 0px; position:relative;
+}
+
+.EurlexContent .EurlexEditorial ul.LiInsideUlInsideLiSameMarkerAsLiInsideUl li:before {
+    content:""; display:block; position:absolute; left:-22px; top:6px; width:5px; height:5px; background:#097eaa;
+}
+
+/* EURLEXNEW-4592 - CONSLEG. Indicate modifications possibly not yet included in the latest consolidated version */
+.modificationTablePanel .modificationTable thead tr th {
+    font-weight: bold;
+}
+.modificationTablePanel .modificationTableCollapse a {
+    text-decoration: none; cursor: pointer;
+}
+.modificationTablePanel .modificationTableCollapse a.collapsed i {
+    margin-right: 3px;
+}
+.modificationTablePanel .modificationTableCollapse a:not(.collapsed) i {
+    transform: rotate(90deg);margin-right: 3px;
+}
+
+/* EURLEXNEW-4659 - Improve left menu on Document page */
+a.eurlexModal.grayLink {
+	color: gray;
+}
+
+
+/* General Banner specifications */
+.SideBanner {
+    background: #1971A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:83px;
+}
+
+/* Styling for the font of the letters inside the banner */
+.BannerText {
+    color: white;
+    font-family: Roboto;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+@media (max-width:992px){
+    .SideBanner {
+        margin-top: 40px;
+    }
+}
+/* This will override the top margin for the second banner if we also have the first */
+.SideBanner + .SideBanner {
+    margin-top: 6px !important;
+}
+
+.SidebannerIcon {
+    flex: 1;
+    margin-top:10px;
+}
+
+.SidebannerIcon + .SidebannerIcon {
+    padding-left:29px;
+}
+
+.SidebannerIcon + .SidebannerIcon .SidebannerRow,
+.SidebannerIcon + .SidebannerIcon .SidebannerRow .XImage {
+    float: right;
+}
+
+.SidebannerRow {
+    background: #F4F4F4;
+    height: 82px;
+    max-width: 138px;
+}
+
+.SidebannerColumn {
+    height:100%;
+    align-content:center;
+}
+
+.SidebannerFrameText {
+    line-height: 100%;
+    font-family: 'Roboto';
+    font-size: 11px;
+    color: #444444;
+}
+
+.XImage {
+    padding-left: 0px;
+}
+
+.globan-background{
+    background-color:#404040
+}
+
+/* // BUDGET ONLINE */
+.BolContent{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 60px;
+	@media only screen and (max-width: 992px) {
+	    padding-left: 20px;
+        padding-right: 20px;
+	}
+	@media only screen and (max-width: 767px) {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+}
+.financialYear{
+	background: #097eaa;
+	border-radius: 3px;
+}
+.financialYear div {
+	padding: 0;
+
+}
+.financialYear fieldset div {margin-bottom: 0}
+.labelFinYear {
+	color: #FFF;
+	padding: 5px 0 5px 10px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600 !important;
+}
+#yearSelect {
+    vertical-align: middle;
+    margin-top: -5px;
+}
+span.labelFinYear > label {
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+div.bolExpandCollapse > div.btn-group-right > button {
+	font-size: 14px;
+}
+/* EURLEX-4891 BOL */
+.cd-bol__container {
+    position: relative;
+    width: auto;
+    max-width: 1170px;
+    margin: 0 6px;
+    padding: 33px  0 0 0;
+    margin-bottom: 20px;
+}
+
+.cd-bol-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 1px solid #EEE;
+    outline-offset: 5px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .cd-bol__block .cd-bol__content {
+        left: 15%;
+    }
+    .cd-bol__content {
+        margin-left: 0;
+        width: 65%;
+    }
+}
+
+.cd-bol__content {
+    margin-left: 0;
+    width: 65%;
+    position: relative;
+    margin-left: 60px;
+    border-radius: 0.25em;
+    padding: 0;
+    background: #FFF;
+    z-index: 2;
+}
+
+.cd-bol-group > .col-md-3 {
+    float: none;
+    padding: 0;
+}
+
+.cd-bol-group > .col-md-3 > h2 {
+    text-transform: uppercase;
+    color: #444;
+    font-weight: bold;
+    margin: 0 0 20px 70px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin: 20px 0 0 10px;
+    padding-right: 20px;
+}
+
+section.cd-bol.js-cd-bol.col-xs-12 {
+   .ViewMoreInfo>i:before {
+       margin-left: 0;
+   }
+   @media only screen and (max-width: 992px) {
+   		padding-left: 5px;
+   		padding-right: 5px;
+   }
+   @media only screen and (max-width: 767px) {
+        padding-left: 0;
+        padding-right: 0;
+   }
+}
+@media only screen and (max-width: 767px) {
+    .bolBody {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.BolSectionButton + div {
+    margin-left: 35px;
+}
+
+.DraftLetters {
+    margin-left: 15px;
+}
+
+.BolSection {
+    margin-top: 20px;
+    margin-left: -7px;
+}
+
+div.BolSection div.DraftGeneralDatabudget  i.exi,
+div.BolSection div.GeneralDatabudget i.exi,
+div.BolSection div.GeneralDatalineByLine i.exi {
+	height: 17px;
+    width: 17px;
+    margin-left: 13px;
+}
+
+.bolExpandCollapse .btn-group-left {
+	float: left;
+}
+
+.bolExpandCollapse .btn-group-left a {
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+
+.bolExpandCollapse .btn-group-left a i {
+    margin-right: 6px;
+}
+
+@media only screen and (min-width: 261px){
+    .bolExpandCollapse .btn-group-left a:nth-child(2) {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 379px) {
+    div.bolExpandCollapse {
+        margin-top: 20px;
+    }
+}
+
+.two-docs-column-size{
+    width:48%;
+}
+
+.three-docs-column-size{
+    width:31%;
+}
+
+.margin-right{
+    margin-right: 1%;
+}
+
+.ecb-boosted-buttons {
+    margin-bottom: 5%;
+}
+
+.ecb-boosted {
+    text-align:center;
+    background-color:#337ab7;
+    border-radius:4px;
+    margin-left:5%;
+    width:100%;
+    height:3em;
+}
+
+.ecb-boosted a {
+    text-decoration:none;
+    line-height:3em;
+    color:white;
+    height:100%;
+    width:100%;
+    display: block;
+}
+
+.ecb-boosted-supervision {
+    text-align:center;
+    background-color:#337ab7;
+    border-radius:4px;
+    margin-right:20%;
+    width:100%;
+    height:3em;
+}
+
+.ecb-boosted-supervision a {
+    text-decoration:none;
+    color:white;
+    height:100%;
+    width:100%;
+    font-size:min(1vw, 1em);
+    display:block;
+}
+
+.ecb-boosted-buttons {
+    margin-bottom:5%;
+}
+
+.EcbButtonStyle {
+  font-size:min(1vw, 1em);
+}
+
+.EcbSupervisionBack {
+  font-size:min(0.8vw, 0.78em) !important;
+  padding-left:2%;
+}
+
+div:has(a):has(.EcbSupervisionBack) {
+    padding-left: 3px;
+}
+
+.EbsTreeLink {
+    display:inline !important;
+    position:relative !important;
+}
